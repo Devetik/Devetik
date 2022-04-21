@@ -1,3 +1,4 @@
+import { QuiSuisJeComponent } from './qui-suis-je/qui-suis-je.component';
 import { YouloopComponent } from './projets/youloop/youloop.component';
 import { Error404Component } from './error404/error404.component';
 import { ProjetsComponent } from './projets/projets.component';
@@ -8,6 +9,7 @@ import { RouterModule, Routes } from '@angular/router';
 const routes: Routes = [
   { path: "home", component: HomeComponent},
   { path: "projets", component: ProjetsComponent},
+  { path: "quiSuisJe", component: QuiSuisJeComponent},
   { path: "projets/youloop", component: YouloopComponent},
   { path: "", component: HomeComponent},
   { path: "**", component: Error404Component}
