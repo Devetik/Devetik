@@ -14,6 +14,12 @@ export class ProjetsComponent implements OnInit {
   }
   listeProjets: projet[] = [
     {
+      title: "Pokemon",
+      image: "https://assets.pokemon.com/assets/cms2/img/pokedex/detail/007.png",
+      lien: "/projets/pokemon",
+      description: "Utilisation du patterne Master View"
+    },
+    {
       title: "Youloop",
       image: "../assets/Youlooplogo.png",
       lien: "/projets/youloop",
@@ -27,7 +33,7 @@ export class ProjetsComponent implements OnInit {
     },
     {
       title: "pokemon",
-      image: "https://assets.pokemon.com/assets/cms2/img/pokedex/detail/007.png",
+      image: "c",
       lien: "/projets/pokemon",
       description: "Projet portant sur les services d'Angular"
     },

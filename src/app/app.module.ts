@@ -9,6 +9,7 @@ import { ProjetsComponent } from './projets/projets.component';
 import { YouloopComponent } from './projets/youloop/youloop.component';
 import { Error404Component } from './error404/error404.component';
 import { QuiSuisJeComponent } from './qui-suis-je/qui-suis-je.component';
+import { PokemonComponent } from './projets/pokemon/pokemon.component';
 
 @NgModule({
   declarations: [
@@ -18,7 +19,8 @@ import { QuiSuisJeComponent } from './qui-suis-je/qui-suis-je.component';
     ProjetsComponent,
     YouloopComponent,
     Error404Component,
-    QuiSuisJeComponent
+    QuiSuisJeComponent,
+    PokemonComponent
   ],
   imports: [
     BrowserModule,
