@@ -1,2 +1,20 @@
-<p>pokemon works!</p>
-<h1>{{ pokemonList[1]}}</h1>
+<h1 class="m-5 text-center">Vous avez selectionné {{ pokemonList[1].name}}</h1>
+<div class="container">
+  <div class="row">
+    <div *ngFor="let pokemon of pokemonList" class="col-3 m-2 bg-light card">
+      <div class="card-body">
+        <div class="row">
+          <div class="col-6">
+            <img src="{{pokemon.picture}}">
+          </div>
+          <div class="col-6 me-0 text-end">
+            <h4>{{pokemon.name}}</h4>
+            <p>{{pokemon.hp}} PV</p>
+            <p>{{pokemon.cp}} CP</p>
+            <p class="mt-5">{{pokemon.types}}</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

@@ -33,7 +33,9 @@
             "styles": [
               "src/styles.scss"
             ],
-            "scripts": []
+            "scripts": [
+              "src/app/projets/youloop/Script/Fee-Calculator.js"
+            ]
           },
           "configurations": {
             "production": {

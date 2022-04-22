@@ -19,4 +19,8 @@ export class HeaderComponent implements OnInit {
     console.table(this.listeProjets);
   }
 
+  selectProjet(projet: projet) {
+    console.log(`Vous avec selectionné ${projet.title}`);
+  }
+
 }
