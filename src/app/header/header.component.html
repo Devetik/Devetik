@@ -16,13 +16,8 @@
         <li class="nav-item dropdown">
           <a class="nav-link dropdown-toggle" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false" routerLinkActive="active"></a>
           <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-            <li><a class="dropdown-item" routerLink="/pokemons" routerLinkActive="active">Pokemon</a></li>
-            <li><a class="dropdown-item" routerLink="/transport" routerLinkActive="active">API Transport</a></li>
-            <li><a class="dropdown-item" routerLink="/youloop" routerLinkActive="active">Youloop</a></li>
-            <li><a class="dropdown-item" href="#">API METEO</a></li>
-            <li><a class="dropdown-item" href="#">THE SNAKE</a></li>
-            <li><a class="dropdown-item" href="#">API Crypto</a></li>
-            <li><a class="dropdown-item" href="#">Juste Prix</a></li>
+            <!-- liste des projets -->
+            <li *ngFor="let projet of listeProjets"><a class="dropdown-item" routerLinkActive="inactive" routerLink="{{projet.lien}}">{{projet.title}}</a></li>
             <li><hr class="dropdown-divider"></li>
             <li><a class="dropdown-item"  routerLink="/projets" routerLinkActive="active">Liste des projets</a></li>
           </ul>

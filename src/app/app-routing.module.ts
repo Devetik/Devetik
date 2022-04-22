@@ -5,12 +5,14 @@ import { ProjetsComponent } from './projets/projets.component';
 import { HomeComponent } from './home/home.component';
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
+import { PokemonComponent } from './projets/pokemon/pokemon.component';
 
 const routes: Routes = [
   { path: "home", component: HomeComponent},
   { path: "projets", component: ProjetsComponent},
   { path: "quiSuisJe", component: QuiSuisJeComponent},
   { path: "projets/youloop", component: YouloopComponent},
+  { path: "projets/pokemon", component: PokemonComponent},
   { path: "", component: HomeComponent},
   { path: "**", component: Error404Component}
 ];
