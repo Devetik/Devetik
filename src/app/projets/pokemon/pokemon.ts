@@ -1,9 +1,14 @@
 export interface Pokemon {
-  id: number;
-  hp: number;
-  cp: number;
-  name: string;
-  picture: string;
-  types: Array<string>;
-  created: Date;
+  Number: number;
+  Pokemon: string;
+  Type1: string;
+  Type2: string;
+  HP: number;
+  Attack: number;
+  Defense: number;
+  Speed: number;
+  Special: number;
+  GIF: string;
+  PNG: string;
+  Description: string;
 }

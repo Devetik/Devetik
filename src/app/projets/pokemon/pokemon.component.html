@@ -1,18 +1,22 @@
-<h1 class="m-5 text-center">Vous avez selectionné {{ pokemonList[1].name}}</h1>
+<h1 class="m-5 text-center">Pokemon</h1>
 <div class="container">
   <div class="row">
-    <div *ngFor="let pokemon of pokemonList" class="col-3 m-auto">
-      <div class="m-2 card bg-light border-1 rounded-5">
+    <div *ngFor="let pokemon of pokemonList" id="test" class="col-12 col-md-6 col-lg-4 m-auto">
+      <div class="m-2 card bg-light border-1 rounded-5 shadow">
         <div class="card-body">
           <div class="row">
-            <div class="col-6">
-              <img src="{{pokemon.picture}}">
+            <div class="col-6 ">
+              <img class="m-0 w-100" src="{{pokemon.PNG}}">
             </div>
             <div class="col-6 me-0 text-end">
-              <h4>{{pokemon.name}}</h4>
-              <p>{{pokemon.hp}} PV</p>
-              <p>{{pokemon.cp}} CP</p>
-              <p class="mt-5">{{pokemon.types}}</p>
+              <h4>{{pokemon.Pokemon}}</h4>
+              <p>{{pokemon.HP}} PV</p>
+              <p>{{pokemon.Attack}} CP</p>
+              <p>{{pokemon.Defense}} Def</p>
+              <p class="mt-5">{{pokemon.Type1}}   {{pokemon.Type2}}</p>
+            </div>
+            <div class="col-12 border border-4">
+              <p>{{pokemon.Description}}</p>
             </div>
           </div>
         </div>
@@ -20,3 +24,7 @@
     </div>
   </div>
 </div>
+
+
+
+

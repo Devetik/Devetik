@@ -1,6 +1,5 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
-
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { HeaderComponent } from './header/header.component';
@@ -10,6 +9,7 @@ import { YouloopComponent } from './projets/youloop/youloop.component';
 import { Error404Component } from './error404/error404.component';
 import { QuiSuisJeComponent } from './qui-suis-je/qui-suis-je.component';
 import { PokemonComponent } from './projets/pokemon/pokemon.component';
+import { HttpClientModule } from '@angular/common/http';
 
 @NgModule({
   declarations: [
@@ -24,7 +24,8 @@ import { PokemonComponent } from './projets/pokemon/pokemon.component';
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    HttpClientModule
   ],
   providers: [],
   bootstrap: [AppComponent]
