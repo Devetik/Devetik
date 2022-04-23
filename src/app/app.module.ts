@@ -10,6 +10,8 @@ import { Error404Component } from './error404/error404.component';
 import { QuiSuisJeComponent } from './qui-suis-je/qui-suis-je.component';
 import { PokemonComponent } from './projets/pokemon/pokemon.component';
 import { HttpClientModule } from '@angular/common/http';
+import { BorderCardDirective } from './projets/pokemon/border-card.directive';
+import { PokemonTypeColorPipe } from './projets/pokemon/pokemon-type-color.pipe';
 
 @NgModule({
   declarations: [
@@ -20,7 +22,9 @@ import { HttpClientModule } from '@angular/common/http';
     YouloopComponent,
     Error404Component,
     QuiSuisJeComponent,
-    PokemonComponent
+    PokemonComponent,
+    BorderCardDirective,
+    PokemonTypeColorPipe
   ],
   imports: [
     BrowserModule,

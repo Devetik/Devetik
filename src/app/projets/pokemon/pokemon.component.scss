@@ -1,6 +1,10 @@
-#test{
-  min-width: 400px;
-}
+
 img{
-  min-width: 200px;
+  min-width: 120%;
+  overflow:hidden;
+}
+.card-footer{
+  display: flex;
+  justify-content:flex-end;
+  overflow: auto;
 }

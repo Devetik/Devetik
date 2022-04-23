@@ -3,6 +3,7 @@ import { POKEMONS } from './mock-pokemon-list';
 import { Pokemon } from './pokemon';
 import { HttpClientModule } from '@angular/common/http';
 import { HttpClient } from '@angular/common/http';
+import { PokemonTypeColorPipe } from './pokemon-type-color.pipe';
 
 
 @Component({
@@ -12,7 +13,6 @@ import { HttpClient } from '@angular/common/http';
 })
 export class PokemonComponent implements OnInit {
   pokemonList: Pokemon[] = POKEMONS;
-
 
   constructor() {}
 
