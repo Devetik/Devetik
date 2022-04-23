@@ -3,8 +3,7 @@ import { POKEMONS } from './mock-pokemon-list';
 import { Pokemon } from './pokemon';
 import { HttpClientModule } from '@angular/common/http';
 import { HttpClient } from '@angular/common/http';
-import { PokemonService } from './pokemon.service';
-import { PokemonCSV } from './pokemonCSV';
+
 
 @Component({
   selector: 'app-pokemon',
@@ -13,12 +12,12 @@ import { PokemonCSV } from './pokemonCSV';
 })
 export class PokemonComponent implements OnInit {
   pokemonList: Pokemon[] = POKEMONS;
-  pokemonData: any[] = [];
 
-  constructor(private PokemonCSV: PokemonService) {}
+
+  constructor() {}
 
   ngOnInit() {
-    this.getData();
+
     console.table(this.pokemonList);
     this.selectPokemon(this.pokemonList[0]);
   }
@@ -27,13 +26,4 @@ export class PokemonComponent implements OnInit {
     console.log(`Vous avec selectionné ${pokemon.Pokemon}`);
   }
 
-  getData() {
-    this.PokemonCSV.getInfo().subscribe((data) => {
-      const list = data.split('\n');
-      console.log(this.pokemonData);
-      list.forEach((e) => {
-        this.pokemonData.push(e);
-      });
-    });
-  }
 }
