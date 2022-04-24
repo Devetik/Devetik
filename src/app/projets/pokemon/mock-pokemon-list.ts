@@ -2,8 +2,8 @@ import { Pokemon } from "./pokemon";
 
 export const POKEMONS: Pokemon[] = [
     {
-      Number: 1,
-      Pokemon: "Bulbasaur",
+      Id: 1,
+      Name: "Bulbasaur",
       Type1: "Grass",
       Type2: "Poison",
       HP: 45,
@@ -16,8 +16,8 @@ export const POKEMONS: Pokemon[] = [
       Description: "A strange seed was planted on its back at birth. The plant sprouts and grows with this Pokemon."
     },
     {
-      Number: 2,
-      Pokemon: "Ivysaur",
+      Id: 2,
+      Name: "Ivysaur",
       Type1: "Grass",
       Type2: "Poison",
       HP: 60,
@@ -30,8 +30,8 @@ export const POKEMONS: Pokemon[] = [
       Description: "Often seen swimming elegantly by lake shores. It is often mistaken for the Japanese monster, Kappa."
     },
     {
-      Number: 3,
-      Pokemon: "Venusaur",
+      Id: 3,
+      Name: "Venusaur",
       Type1: "Grass",
       Type2: "Poison",
       HP: 80,
@@ -44,8 +44,8 @@ export const POKEMONS: Pokemon[] = [
       Description: "Because it stores several kinds of toxic gases in its body, it is prone to exploding without warning."
     },
     {
-      Number: 4,
-      Pokemon: "Charmander",
+      Id: 4,
+      Name: "Charmander",
       Type1: "Fire",
       Type2: "",
       HP: 39,
@@ -58,8 +58,8 @@ export const POKEMONS: Pokemon[] = [
       Description: "Obviously prefers hot places. When it rains, steam is said to spout from the tip of its tail."
     },
     {
-      Number: 5,
-      Pokemon: "Charmeleon",
+      Id: 5,
+      Name: "Charmeleon",
       Type1: "Fire",
       Type2: "",
       HP: 58,
@@ -72,8 +72,8 @@ export const POKEMONS: Pokemon[] = [
       Description: "When it swings its burning tail, it elevates the temperature to unbearably high levels."
     },
     {
-      Number: 6,
-      Pokemon: "Charizard",
+      Id: 6,
+      Name: "Charizard",
       Type1: "Fire",
       Type2: "Flying",
       HP: 78,
@@ -86,8 +86,8 @@ export const POKEMONS: Pokemon[] = [
       Description: "Spits fire that is hot enough to melt boulders. Known to cause forest fires unintentionally."
     },
     {
-      Number: 7,
-      Pokemon: "Squirtle",
+      Id: 7,
+      Name: "Squirtle",
       Type1: "Water",
       Type2: "",
       HP: 44,
@@ -100,8 +100,8 @@ export const POKEMONS: Pokemon[] = [
       Description: "After birth, its back swells and hardens into a shell. Powerfully sprays foam from its mouth."
     },
     {
-      Number: 8,
-      Pokemon: "Wartortle",
+      Id: 8,
+      Name: "Wartortle",
       Type1: "Water",
       Type2: "",
       HP: 59,
@@ -114,8 +114,8 @@ export const POKEMONS: Pokemon[] = [
       Description: "Often hides in water to stalk unwary prey. For swimming fast, it moves its ears to maintain balance."
     },
     {
-      Number: 9,
-      Pokemon: "Blastoise",
+      Id: 9,
+      Name: "Blastoise",
       Type1: "Water",
       Type2: "",
       HP: 79,
@@ -128,8 +128,8 @@ export const POKEMONS: Pokemon[] = [
       Description: "A brutal Pokemon with pressurized water jets on its shell. They are used for high speed tackles."
     },
     {
-      Number: 10,
-      Pokemon: "Caterpie",
+      Id: 10,
+      Name: "Caterpie",
       Type1: "Bug",
       Type2: "",
       HP: 45,
@@ -142,8 +142,8 @@ export const POKEMONS: Pokemon[] = [
       Description: "Its short feet are tipped with suction pads that enable it to tirelessly climb slopes and walls."
     },
     {
-      Number: 11,
-      Pokemon: "Metapod",
+      Id: 11,
+      Name: "Metapod",
       Type1: "Bug",
       Type2: "",
       HP: 50,
@@ -156,8 +156,8 @@ export const POKEMONS: Pokemon[] = [
       Description: "This Pokemon is vulnerable to attack while its shell is soft, exposing its weak and tender body."
     },
     {
-      Number: 12,
-      Pokemon: "Butterfree",
+      Id: 12,
+      Name: "Butterfree",
       Type1: "Bug",
       Type2: "Flying",
       HP: 60,
@@ -170,8 +170,8 @@ export const POKEMONS: Pokemon[] = [
       Description: "In battle, it flaps its wings at high speed to release highly toxic dust into the air."
     },
     {
-      Number: 13,
-      Pokemon: "Weedle",
+      Id: 13,
+      Name: "Weedle",
       Type1: "Bug",
       Type2: "Poison",
       HP: 40,
@@ -184,8 +184,8 @@ export const POKEMONS: Pokemon[] = [
       Description: "Often found in forests, eating leaves. It has a sharp venomous stinger on its head."
     },
     {
-      Number: 14,
-      Pokemon: "Kakuna",
+      Id: 14,
+      Name: "Kakuna",
       Type1: "Bug",
       Type2: "Poison",
       HP: 45,
@@ -198,8 +198,8 @@ export const POKEMONS: Pokemon[] = [
       Description: "Almost incapable of moving, this Pokemon can only harden its shell to protect itself from predators."
     },
     {
-      Number: 15,
-      Pokemon: "Beedrill",
+      Id: 15,
+      Name: "Beedrill",
       Type1: "Bug",
       Type2: "Poison",
       HP: 65,
@@ -212,8 +212,8 @@ export const POKEMONS: Pokemon[] = [
       Description: "Flies at high speed and attacks using its large venomous stingers on its forelegs and tail."
     },
     {
-      Number: 16,
-      Pokemon: "Pidgey",
+      Id: 16,
+      Name: "Pidgey",
       Type1: "Normal",
       Type2: "Flying",
       HP: 40,
@@ -226,8 +226,8 @@ export const POKEMONS: Pokemon[] = [
       Description: "A common sight in forests and woods. It flaps its wings at ground level to kick up blinding sand."
     },
     {
-      Number: 17,
-      Pokemon: "Pidgeotto",
+      Id: 17,
+      Name: "Pidgeotto",
       Type1: "Normal",
       Type2: "Flying",
       HP: 63,
@@ -240,8 +240,8 @@ export const POKEMONS: Pokemon[] = [
       Description: "Very protective of its sprawling territorial area, this Pokemon will fiercely peck at any intruder."
     },
     {
-      Number: 18,
-      Pokemon: "Pidgeot",
+      Id: 18,
+      Name: "Pidgeot",
       Type1: "Normal",
       Type2: "Flying",
       HP: 83,
@@ -254,8 +254,8 @@ export const POKEMONS: Pokemon[] = [
       Description: "When hunting, it skims the surface of water at high speed to pick off unwary prey such as MAGIKARP."
     },
     {
-      Number: 19,
-      Pokemon: "Rattata",
+      Id: 19,
+      Name: "Rattata",
       Type1: "Normal",
       Type2: "",
       HP: 30,
@@ -268,8 +268,8 @@ export const POKEMONS: Pokemon[] = [
       Description: "Bites anything when it attacks. Small and very quick, it is a common sight in many places."
     },
     {
-      Number: 20,
-      Pokemon: "Raticate",
+      Id: 20,
+      Name: "Raticate",
       Type1: "Normal",
       Type2: "",
       HP: 55,
@@ -282,8 +282,8 @@ export const POKEMONS: Pokemon[] = [
       Description: "It uses its whiskers to maintain its balance. It apparently slows down if they are cut off."
     },
     {
-      Number: 21,
-      Pokemon: "Spearow",
+      Id: 21,
+      Name: "Spearow",
       Type1: "Normal",
       Type2: "Flying",
       HP: 40,
@@ -296,8 +296,8 @@ export const POKEMONS: Pokemon[] = [
       Description: "Eats bugs in grassy areas. It has to flap its short wings at high speed to stay airborne."
     },
     {
-      Number: 22,
-      Pokemon: "Fearow",
+      Id: 22,
+      Name: "Fearow",
       Type1: "Normal",
       Type2: "Flying",
       HP: 65,
@@ -310,8 +310,8 @@ export const POKEMONS: Pokemon[] = [
       Description: "With its huge and magnificent wings, it can keep aloft without ever having to land for rest."
     },
     {
-      Number: 23,
-      Pokemon: "Ekans",
+      Id: 23,
+      Name: "Ekans",
       Type1: "Poison",
       Type2: "",
       HP: 35,
@@ -324,8 +324,8 @@ export const POKEMONS: Pokemon[] = [
       Description: "Moves silently and stealthily. Eats the eggs of birds, such as PIDGEY and SPEAROW, whole."
     },
     {
-      Number: 24,
-      Pokemon: "Arbok",
+      Id: 24,
+      Name: "Arbok",
       Type1: "Poison",
       Type2: "",
       HP: 60,
@@ -338,8 +338,8 @@ export const POKEMONS: Pokemon[] = [
       Description: "It is rumored that the ferocious warning markings on its belly differ from area to area."
     },
     {
-      Number: 25,
-      Pokemon: "Pikachu",
+      Id: 25,
+      Name: "Pikachu",
       Type1: "Electric",
       Type2: "",
       HP: 35,
@@ -352,8 +352,8 @@ export const POKEMONS: Pokemon[] = [
       Description: "When several of these Pokemon gather, their electricity could build and cause lightning storms."
     },
     {
-      Number: 26,
-      Pokemon: "Raichu",
+      Id: 26,
+      Name: "Raichu",
       Type1: "Electric",
       Type2: "",
       HP: 60,
@@ -366,8 +366,8 @@ export const POKEMONS: Pokemon[] = [
       Description: "Its long tail serves as a ground to protect itself from its own high voltage power."
     },
     {
-      Number: 27,
-      Pokemon: "Sandshrew",
+      Id: 27,
+      Name: "Sandshrew",
       Type1: "Ground",
       Type2: "",
       HP: 50,
@@ -380,8 +380,8 @@ export const POKEMONS: Pokemon[] = [
       Description: "Burrows deep underground in arid locations far from water. It only emerges to hunt for food."
     },
     {
-      Number: 28,
-      Pokemon: "Sandslash",
+      Id: 28,
+      Name: "Sandslash",
       Type1: "Ground",
       Type2: "",
       HP: 75,
@@ -394,8 +394,8 @@ export const POKEMONS: Pokemon[] = [
       Description: "Curls up into a spiny ball when threatened. It can roll while curled up to attack or escape."
     },
     {
-      Number: 29,
-      Pokemon: "NidoranF",
+      Id: 29,
+      Name: "NidoranF",
       Type1: "Poison",
       Type2: "",
       HP: 55,
@@ -408,8 +408,8 @@ export const POKEMONS: Pokemon[] = [
       Description: "Although small, its venomous barbs render this Pokemon dangerous. The female has smaller horns."
     },
     {
-      Number: 30,
-      Pokemon: "Nidorina",
+      Id: 30,
+      Name: "Nidorina",
       Type1: "Poison",
       Type2: "",
       HP: 70,
@@ -422,8 +422,8 @@ export const POKEMONS: Pokemon[] = [
       Description: "The female's horn develops slowly. Prefers physical attacks such as clawing and biting."
     },
     {
-      Number: 31,
-      Pokemon: "Nidoqueen",
+      Id: 31,
+      Name: "Nidoqueen",
       Type1: "Poison",
       Type2: "Ground",
       HP: 90,
@@ -436,8 +436,8 @@ export const POKEMONS: Pokemon[] = [
       Description: "Its hard scales provide strong protection. It uses its hefty bulk to execute powerful moves."
     },
     {
-      Number: 32,
-      Pokemon: "NidoranM",
+      Id: 32,
+      Name: "NidoranM",
       Type1: "Poison",
       Type2: "",
       HP: 46,
@@ -450,8 +450,8 @@ export const POKEMONS: Pokemon[] = [
       Description: "Stiffens its ears to sense danger. The larger its horns, the more powerful its secreted venom."
     },
     {
-      Number: 33,
-      Pokemon: "Nidorino",
+      Id: 33,
+      Name: "Nidorino",
       Type1: "Poison",
       Type2: "",
       HP: 61,
@@ -464,8 +464,8 @@ export const POKEMONS: Pokemon[] = [
       Description: "An aggressive Pokemon that is quick to attack. The horn on its head secretes a powerful venom."
     },
     {
-      Number: 34,
-      Pokemon: "Nidoking",
+      Id: 34,
+      Name: "Nidoking",
       Type1: "Poison",
       Type2: "Ground",
       HP: 81,
@@ -478,8 +478,8 @@ export const POKEMONS: Pokemon[] = [
       Description: "It uses its powerful tail in battle to smash, constrict, then break the prey's bones."
     },
     {
-      Number: 35,
-      Pokemon: "Clefairy",
+      Id: 35,
+      Name: "Clefairy",
       Type1: "Normal",
       Type2: "",
       HP: 70,
@@ -492,8 +492,8 @@ export const POKEMONS: Pokemon[] = [
       Description: "Its magical and cute appeal has many admirers. It is rare and found only in certain areas."
     },
     {
-      Number: 36,
-      Pokemon: "Clefable",
+      Id: 36,
+      Name: "Clefable",
       Type1: "Normal",
       Type2: "",
       HP: 95,
@@ -506,8 +506,8 @@ export const POKEMONS: Pokemon[] = [
       Description: "A timid fairy Pokemon that is rarely seen. It will run and hide the moment it senses people."
     },
     {
-      Number: 37,
-      Pokemon: "Vulpix",
+      Id: 37,
+      Name: "Vulpix",
       Type1: "Fire",
       Type2: "",
       HP: 38,
@@ -520,8 +520,8 @@ export const POKEMONS: Pokemon[] = [
       Description: "At the time of birth, it has just one tail. The tail splits from its tip as it grows older."
     },
     {
-      Number: 38,
-      Pokemon: "Ninetales",
+      Id: 38,
+      Name: "Ninetales",
       Type1: "Fire",
       Type2: "",
       HP: 73,
@@ -534,8 +534,8 @@ export const POKEMONS: Pokemon[] = [
       Description: "Very smart and very vengeful. Grabbing one of its many tails could result in a 1000-year curse."
     },
     {
-      Number: 39,
-      Pokemon: "Jigglypuff",
+      Id: 39,
+      Name: "Jigglypuff",
       Type1: "Normal",
       Type2: "",
       HP: 115,
@@ -548,8 +548,8 @@ export const POKEMONS: Pokemon[] = [
       Description: "When its huge eyes light up, it sings a mysteriously soothing melody that lulls its enemies to sleep."
     },
     {
-      Number: 40,
-      Pokemon: "Wigglytuff",
+      Id: 40,
+      Name: "Wigglytuff",
       Type1: "Normal",
       Type2: "",
       HP: 140,
@@ -562,8 +562,8 @@ export const POKEMONS: Pokemon[] = [
       Description: "The body is soft and rubbery. When angered, it will suck in air and inflate itself to an enormous size."
     },
     {
-      Number: 41,
-      Pokemon: "Zubat",
+      Id: 41,
+      Name: "Zubat",
       Type1: "Poison",
       Type2: "Flying",
       HP: 40,
@@ -576,8 +576,8 @@ export const POKEMONS: Pokemon[] = [
       Description: "Forms colonies in perpetually dark places. Uses ultrasonic waves to identify and approach targets."
     },
     {
-      Number: 42,
-      Pokemon: "Golbat",
+      Id: 42,
+      Name: "Golbat",
       Type1: "Poison",
       Type2: "Flying",
       HP: 75,
@@ -590,8 +590,8 @@ export const POKEMONS: Pokemon[] = [
       Description: "Once it strikes, it will not stop draining energy from the victim even if it gets too heavy to fly."
     },
     {
-      Number: 43,
-      Pokemon: "Oddish",
+      Id: 43,
+      Name: "Oddish",
       Type1: "Grass",
       Type2: "Poison",
       HP: 45,
@@ -604,8 +604,8 @@ export const POKEMONS: Pokemon[] = [
       Description: "During the day, it keeps its face buried in the ground. At night, it wanders around sowing its seeds."
     },
     {
-      Number: 44,
-      Pokemon: "Gloom",
+      Id: 44,
+      Name: "Gloom",
       Type1: "Grass",
       Type2: "Poison",
       HP: 60,
@@ -618,8 +618,8 @@ export const POKEMONS: Pokemon[] = [
       Description: "The fluid that oozes from its mouth isn't drool. It is a nectar that is used to attract prey."
     },
     {
-      Number: 45,
-      Pokemon: "Vileplume",
+      Id: 45,
+      Name: "Vileplume",
       Type1: "Grass",
       Type2: "Poison",
       HP: 75,
@@ -632,8 +632,8 @@ export const POKEMONS: Pokemon[] = [
       Description: "The larger its petals, the more toxic pollen it contains. Its big head is heavy and hard to hold up."
     },
     {
-      Number: 46,
-      Pokemon: "Paras",
+      Id: 46,
+      Name: "Paras",
       Type1: "Bug",
       Type2: "Grass",
       HP: 35,
@@ -646,8 +646,8 @@ export const POKEMONS: Pokemon[] = [
       Description: "Burrows to suck tree roots. The mushrooms on its back grow by drawing nutrients from the bug host."
     },
     {
-      Number: 47,
-      Pokemon: "Parasect",
+      Id: 47,
+      Name: "Parasect",
       Type1: "Bug",
       Type2: "Grass",
       HP: 60,
@@ -660,8 +660,8 @@ export const POKEMONS: Pokemon[] = [
       Description: "A host-parasite pair in which the parasite mushroom has taken over the host bug. Prefers damp places."
     },
     {
-      Number: 48,
-      Pokemon: "Venonat",
+      Id: 48,
+      Name: "Venonat",
       Type1: "Bug",
       Type2: "Poison",
       HP: 60,
@@ -674,8 +674,8 @@ export const POKEMONS: Pokemon[] = [
       Description: "Lives in the shadows of tall trees where it eats insects. It is attracted by light at night."
     },
     {
-      Number: 49,
-      Pokemon: "Venomoth",
+      Id: 49,
+      Name: "Venomoth",
       Type1: "Bug",
       Type2: "Poison",
       HP: 70,
@@ -688,8 +688,8 @@ export const POKEMONS: Pokemon[] = [
       Description: "The dust-like scales covering its wings are color coded to indicate the kinds of poison it has."
     },
     {
-      Number: 50,
-      Pokemon: "Diglett",
+      Id: 50,
+      Name: "Diglett",
       Type1: "Ground",
       Type2: "",
       HP: 10,
@@ -702,8 +702,8 @@ export const POKEMONS: Pokemon[] = [
       Description: "Lives about one yard underground where it feeds on plant roots. It sometimes appears above ground."
     },
     {
-      Number: 51,
-      Pokemon: "Dugtrio",
+      Id: 51,
+      Name: "Dugtrio",
       Type1: "Ground",
       Type2: "",
       HP: 35,
@@ -716,8 +716,8 @@ export const POKEMONS: Pokemon[] = [
       Description: "A team of DIGLETT triplets. It triggers huge earthquakes by burrowing 60 miles underground."
     },
     {
-      Number: 52,
-      Pokemon: "Meowth",
+      Id: 52,
+      Name: "Meowth",
       Type1: "Normal",
       Type2: "",
       HP: 40,
@@ -730,8 +730,8 @@ export const POKEMONS: Pokemon[] = [
       Description: "Adores circular objects. Wanders the streets on a nightly basis to look for dropped loose change."
     },
     {
-      Number: 53,
-      Pokemon: "Persian",
+      Id: 53,
+      Name: "Persian",
       Type1: "Normal",
       Type2: "",
       HP: 65,
@@ -744,8 +744,8 @@ export const POKEMONS: Pokemon[] = [
       Description: "Although its fur has many admirers, it is tough to raise as a pet because of its fickle meanness."
     },
     {
-      Number: 54,
-      Pokemon: "Psyduck",
+      Id: 54,
+      Name: "Psyduck",
       Type1: "Water",
       Type2: "",
       HP: 50,
@@ -758,8 +758,8 @@ export const POKEMONS: Pokemon[] = [
       Description: "While lulling its enemies with its vacant look, this wily Pokemon will use psychokinetic powers."
     },
     {
-      Number: 55,
-      Pokemon: "Golduck",
+      Id: 55,
+      Name: "Golduck",
       Type1: "Water",
       Type2: "",
       HP: 80,
@@ -772,8 +772,8 @@ export const POKEMONS: Pokemon[] = [
       Description: "Often seen swimming elegantly by lake shores. It is often mistaken for the Japanese monster, Kappa."
     },
     {
-      Number: 56,
-      Pokemon: "Mankey",
+      Id: 56,
+      Name: "Mankey",
       Type1: "Fighting",
       Type2: "",
       HP: 40,
@@ -786,8 +786,8 @@ export const POKEMONS: Pokemon[] = [
       Description: "Extremely quick to anger. It could be docile one moment then thrashing away the next instant."
     },
     {
-      Number: 57,
-      Pokemon: "Primeape",
+      Id: 57,
+      Name: "Primeape",
       Type1: "Fighting",
       Type2: "",
       HP: 65,
@@ -800,8 +800,8 @@ export const POKEMONS: Pokemon[] = [
       Description: "Always furious and tenacious to boot. It will not abandon chasing its quarry until it is caught."
     },
     {
-      Number: 58,
-      Pokemon: "Growlithe",
+      Id: 58,
+      Name: "Growlithe",
       Type1: "Fire",
       Type2: "",
       HP: 55,
@@ -814,8 +814,8 @@ export const POKEMONS: Pokemon[] = [
       Description: "Very protective of its territory. It will bark and bite to repel intruders from its space."
     },
     {
-      Number: 59,
-      Pokemon: "Arcanine",
+      Id: 59,
+      Name: "Arcanine",
       Type1: "Fire",
       Type2: "",
       HP: 90,
@@ -828,8 +828,8 @@ export const POKEMONS: Pokemon[] = [
       Description: "A Pokemon that has been admired since the past for its beauty. It runs agilely as if on wings."
     },
     {
-      Number: 60,
-      Pokemon: "Poliwag",
+      Id: 60,
+      Name: "Poliwag",
       Type1: "Water",
       Type2: "",
       HP: 40,
@@ -842,8 +842,8 @@ export const POKEMONS: Pokemon[] = [
       Description: "Its newly grown legs prevent it from running. It appears to prefer swimming than trying to stand."
     },
     {
-      Number: 61,
-      Pokemon: "Poliwhirl",
+      Id: 61,
+      Name: "Poliwhirl",
       Type1: "Water",
       Type2: "",
       HP: 65,
@@ -856,8 +856,8 @@ export const POKEMONS: Pokemon[] = [
       Description: "Capable of living in or out of water. When out of water, it sweats to keep its body slimy."
     },
     {
-      Number: 62,
-      Pokemon: "Poliwrath",
+      Id: 62,
+      Name: "Poliwrath",
       Type1: "Water",
       Type2: "Fighting",
       HP: 90,
@@ -870,8 +870,8 @@ export const POKEMONS: Pokemon[] = [
       Description: "An adept swimmer at both the front crawl and breast stroke. Easily overtakes the best human swimmers."
     },
     {
-      Number: 63,
-      Pokemon: "Abra",
+      Id: 63,
+      Name: "Abra",
       Type1: "Psychic",
       Type2: "",
       HP: 25,
@@ -884,8 +884,8 @@ export const POKEMONS: Pokemon[] = [
       Description: "Using its ability to read minds, it will identify impending danger and TELEPORT to safety."
     },
     {
-      Number: 64,
-      Pokemon: "Kadabra",
+      Id: 64,
+      Name: "Kadabra",
       Type1: "Psychic",
       Type2: "",
       HP: 40,
@@ -898,8 +898,8 @@ export const POKEMONS: Pokemon[] = [
       Description: "It emits special alpha waves from its body that induce headaches just by being close by."
     },
     {
-      Number: 65,
-      Pokemon: "Alakazam",
+      Id: 65,
+      Name: "Alakazam",
       Type1: "Psychic",
       Type2: "",
       HP: 55,
@@ -912,8 +912,8 @@ export const POKEMONS: Pokemon[] = [
       Description: "Its brain can outperform a supercomputer. Its intelligence quotient is said to be 5,000."
     },
     {
-      Number: 66,
-      Pokemon: "Machop",
+      Id: 66,
+      Name: "Machop",
       Type1: "Fighting",
       Type2: "",
       HP: 70,
@@ -926,8 +926,8 @@ export const POKEMONS: Pokemon[] = [
       Description: "Loves to build its muscles. It trains in all styles of martial arts to become even stronger."
     },
     {
-      Number: 67,
-      Pokemon: "Machoke",
+      Id: 67,
+      Name: "Machoke",
       Type1: "Fighting",
       Type2: "",
       HP: 80,
@@ -940,8 +940,8 @@ export const POKEMONS: Pokemon[] = [
       Description: "Its muscular body is so powerful, it must wear a power save belt to be able to regulate its motions."
     },
     {
-      Number: 68,
-      Pokemon: "Machamp",
+      Id: 68,
+      Name: "Machamp",
       Type1: "Fighting",
       Type2: "",
       HP: 90,
@@ -954,8 +954,8 @@ export const POKEMONS: Pokemon[] = [
       Description: "Using its heavy muscles, it throws powerful punches that can send the victim clear over the horizon."
     },
     {
-      Number: 69,
-      Pokemon: "Bellsprout",
+      Id: 69,
+      Name: "Bellsprout",
       Type1: "Grass",
       Type2: "Poison",
       HP: 50,
@@ -968,8 +968,8 @@ export const POKEMONS: Pokemon[] = [
       Description: "A carnivorous Pokemon that traps and eats bugs. It uses its root feet to soak up needed moisture."
     },
     {
-      Number: 70,
-      Pokemon: "Weepinbell",
+      Id: 70,
+      Name: "Weepinbell",
       Type1: "Grass",
       Type2: "Poison",
       HP: 65,
@@ -982,8 +982,8 @@ export const POKEMONS: Pokemon[] = [
       Description: "It spits out POISONPOWDER to immobilize the enemy and then finishes it with a spray of ACID."
     },
     {
-      Number: 71,
-      Pokemon: "Victreebel",
+      Id: 71,
+      Name: "Victreebel",
       Type1: "Grass",
       Type2: "Poison",
       HP: 80,
@@ -996,8 +996,8 @@ export const POKEMONS: Pokemon[] = [
       Description: "Said to live in huge colonies deep in jungles, although no one has ever returned from there."
     },
     {
-      Number: 72,
-      Pokemon: "Tentacool",
+      Id: 72,
+      Name: "Tentacool",
       Type1: "Water",
       Type2: "Poison",
       HP: 40,
@@ -1010,8 +1010,8 @@ export const POKEMONS: Pokemon[] = [
       Description: "Drifts in shallow seas. Anglers who hook them by accident are often punished by its stinging acid."
     },
     {
-      Number: 73,
-      Pokemon: "Tentacruel",
+      Id: 73,
+      Name: "Tentacruel",
       Type1: "Water",
       Type2: "Poison",
       HP: 80,
@@ -1024,8 +1024,8 @@ export const POKEMONS: Pokemon[] = [
       Description: "The tentacles are normally kept short. On hunts, they are extended to ensnare and immobilize prey."
     },
     {
-      Number: 74,
-      Pokemon: "Geodude",
+      Id: 74,
+      Name: "Geodude",
       Type1: "Rock",
       Type2: "Ground",
       HP: 40,
@@ -1038,8 +1038,8 @@ export const POKEMONS: Pokemon[] = [
       Description: "Found in fields and mountains. Mistaking them for boulders, people often step or trip on them."
     },
     {
-      Number: 75,
-      Pokemon: "Graveler",
+      Id: 75,
+      Name: "Graveler",
       Type1: "Rock",
       Type2: "Ground",
       HP: 55,
@@ -1052,8 +1052,8 @@ export const POKEMONS: Pokemon[] = [
       Description: "Rolls down slopes to move. It rolls over any obstacle without slowing or changing its direction."
     },
     {
-      Number: 76,
-      Pokemon: "Golem",
+      Id: 76,
+      Name: "Golem",
       Type1: "Rock",
       Type2: "Ground",
       HP: 80,
@@ -1066,8 +1066,8 @@ export const POKEMONS: Pokemon[] = [
       Description: "Its boulder-like body is extremely hard. It can easily withstand dynamite blasts without damage."
     },
     {
-      Number: 77,
-      Pokemon: "Ponyta",
+      Id: 77,
+      Name: "Ponyta",
       Type1: "Fire",
       Type2: "",
       HP: 50,
@@ -1080,8 +1080,8 @@ export const POKEMONS: Pokemon[] = [
       Description: "Its hooves are 10 times harder than diamonds. It can trample anything completely flat in little time."
     },
     {
-      Number: 78,
-      Pokemon: "Rapidash",
+      Id: 78,
+      Name: "Rapidash",
       Type1: "Fire",
       Type2: "",
       HP: 65,
@@ -1094,8 +1094,8 @@ export const POKEMONS: Pokemon[] = [
       Description: "Very competitive, this Pokemon will chase anything that moves fast in the hopes of racing it."
     },
     {
-      Number: 79,
-      Pokemon: "Slowpoke",
+      Id: 79,
+      Name: "Slowpoke",
       Type1: "Water",
       Type2: "Psychic",
       HP: 90,
@@ -1108,8 +1108,8 @@ export const POKEMONS: Pokemon[] = [
       Description: "Incredibly slow and dopey. It takes 5 seconds for it to feel pain when under attack."
     },
     {
-      Number: 80,
-      Pokemon: "Slowbro",
+      Id: 80,
+      Name: "Slowbro",
       Type1: "Water",
       Type2: "Psychic",
       HP: 95,
@@ -1122,8 +1122,8 @@ export const POKEMONS: Pokemon[] = [
       Description: "The SHELLDER that is latched onto SLOWPOKE's tail is said to feed on the host's left over scraps."
     },
     {
-      Number: 81,
-      Pokemon: "Magnemite",
+      Id: 81,
+      Name: "Magnemite",
       Type1: "Electric",
       Type2: "",
       HP: 25,
@@ -1136,8 +1136,8 @@ export const POKEMONS: Pokemon[] = [
       Description: "Uses anti-gravity to stay suspended. Appears without warning and uses THUNDER WAVE and similar moves."
     },
     {
-      Number: 82,
-      Pokemon: "Magneton",
+      Id: 82,
+      Name: "Magneton",
       Type1: "Electric",
       Type2: "",
       HP: 50,
@@ -1150,8 +1150,8 @@ export const POKEMONS: Pokemon[] = [
       Description: "Formed by several MAGNEMITEs linked together. They frequently appear when sunspots flare up."
     },
     {
-      Number: 83,
-      Pokemon: "Farfetch'd",
+      Id: 83,
+      Name: "Farfetch'd",
       Type1: "Normal",
       Type2: "Flying",
       HP: 52,
@@ -1164,8 +1164,8 @@ export const POKEMONS: Pokemon[] = [
       Description: "The sprig of green onions it holds is its weapon. It is used much like a metal sword."
     },
     {
-      Number: 84,
-      Pokemon: "Doduo",
+      Id: 84,
+      Name: "Doduo",
       Type1: "Normal",
       Type2: "Flying",
       HP: 35,
@@ -1178,8 +1178,8 @@ export const POKEMONS: Pokemon[] = [
       Description: "A bird that makes up for its poor flying with its fast foot speed. Leaves giant footprints."
     },
     {
-      Number: 85,
-      Pokemon: "Dodrio",
+      Id: 85,
+      Name: "Dodrio",
       Type1: "Normal",
       Type2: "Flying",
       HP: 60,
@@ -1192,8 +1192,8 @@ export const POKEMONS: Pokemon[] = [
       Description: "Uses its three brains to execute complex plans. While two heads sleep, one head stays awake."
     },
     {
-      Number: 86,
-      Pokemon: "Seel",
+      Id: 86,
+      Name: "Seel",
       Type1: "Water",
       Type2: "",
       HP: 65,
@@ -1206,8 +1206,8 @@ export const POKEMONS: Pokemon[] = [
       Description: "The protruding horn on its head is very hard. It is used for bashing through thick ice."
     },
     {
-      Number: 87,
-      Pokemon: "Dewgong",
+      Id: 87,
+      Name: "Dewgong",
       Type1: "Water",
       Type2: "Ice",
       HP: 90,
@@ -1220,8 +1220,8 @@ export const POKEMONS: Pokemon[] = [
       Description: "Stores thermal energy in its body. Swims at a steady 8 knots even in intensely cold waters."
     },
     {
-      Number: 88,
-      Pokemon: "Grimer",
+      Id: 88,
+      Name: "Grimer",
       Type1: "Poison",
       Type2: "",
       HP: 80,
@@ -1234,8 +1234,8 @@ export const POKEMONS: Pokemon[] = [
       Description: "Appears in filthy areas. Thrives by sucking up polluted sludge that is pumped out of factories."
     },
     {
-      Number: 89,
-      Pokemon: "Muk",
+      Id: 89,
+      Name: "Muk",
       Type1: "Poison",
       Type2: "",
       HP: 105,
@@ -1248,8 +1248,8 @@ export const POKEMONS: Pokemon[] = [
       Description: "Thickly covered with a filthy, vile sludge. It is so toxic, even its footprints contain poison."
     },
     {
-      Number: 90,
-      Pokemon: "Shellder",
+      Id: 90,
+      Name: "Shellder",
       Type1: "Water",
       Type2: "",
       HP: 30,
@@ -1262,8 +1262,8 @@ export const POKEMONS: Pokemon[] = [
       Description: "Its hard shell repels any kind of attack. It is vulnerable only when its shell is open."
     },
     {
-      Number: 91,
-      Pokemon: "Cloyster",
+      Id: 91,
+      Name: "Cloyster",
       Type1: "Water",
       Type2: "Ice",
       HP: 50,
@@ -1276,8 +1276,8 @@ export const POKEMONS: Pokemon[] = [
       Description: "When attacked, it launches its horns in quick volleys. Its innards have never been seen."
     },
     {
-      Number: 92,
-      Pokemon: "Gastly",
+      Id: 92,
+      Name: "Gastly",
       Type1: "Ghost",
       Type2: "Poison",
       HP: 30,
@@ -1290,8 +1290,8 @@ export const POKEMONS: Pokemon[] = [
       Description: "Almost invisible, this gaseous Pokemon cloaks the target and puts it to sleep without notice."
     },
     {
-      Number: 93,
-      Pokemon: "Haunter",
+      Id: 93,
+      Name: "Haunter",
       Type1: "Ghost",
       Type2: "Poison",
       HP: 45,
@@ -1304,8 +1304,8 @@ export const POKEMONS: Pokemon[] = [
       Description: "Because of its ability to slip through block walls, it is said to be from another dimension."
     },
     {
-      Number: 94,
-      Pokemon: "Gengar",
+      Id: 94,
+      Name: "Gengar",
       Type1: "Ghost",
       Type2: "Poison",
       HP: 60,
@@ -1318,8 +1318,8 @@ export const POKEMONS: Pokemon[] = [
       Description: "Under a full moon, this Pokemon likes to mimic the shadows of people and laugh at their fright."
     },
     {
-      Number: 95,
-      Pokemon: "Onix",
+      Id: 95,
+      Name: "Onix",
       Type1: "Rock",
       Type2: "Ground",
       HP: 35,
@@ -1332,8 +1332,8 @@ export const POKEMONS: Pokemon[] = [
       Description: "As it grows, the stone portions of its body harden to become similar to a diamond, but colored black."
     },
     {
-      Number: 96,
-      Pokemon: "Drowzee",
+      Id: 96,
+      Name: "Drowzee",
       Type1: "Psychic",
       Type2: "",
       HP: 60,
@@ -1346,8 +1346,8 @@ export const POKEMONS: Pokemon[] = [
       Description: "Puts enemies to sleep then eats their dreams. Occasionally gets sick from eating bad dreams."
     },
     {
-      Number: 97,
-      Pokemon: "Hypno",
+      Id: 97,
+      Name: "Hypno",
       Type1: "Psychic",
       Type2: "",
       HP: 85,
@@ -1360,8 +1360,8 @@ export const POKEMONS: Pokemon[] = [
       Description: "When it locks eyes with an enemy, it will use a mix of PSI moves such as HYPNOSIS and CONFUSION."
     },
     {
-      Number: 98,
-      Pokemon: "Krabby",
+      Id: 98,
+      Name: "Krabby",
       Type1: "Water",
       Type2: "",
       HP: 30,
@@ -1374,8 +1374,8 @@ export const POKEMONS: Pokemon[] = [
       Description: "Its pincers are not only powerful weapons, they are used for balance when walking sideways."
     },
     {
-      Number: 99,
-      Pokemon: "Kingler",
+      Id: 99,
+      Name: "Kingler",
       Type1: "Water",
       Type2: "",
       HP: 55,
@@ -1388,8 +1388,8 @@ export const POKEMONS: Pokemon[] = [
       Description: "The large pincer has 10000 hp of crushing power. However, its huge size makes it unwieldy to use."
     },
     {
-      Number: 100,
-      Pokemon: "Voltorb",
+      Id: 100,
+      Name: "Voltorb",
       Type1: "Electric",
       Type2: "",
       HP: 40,
@@ -1402,8 +1402,8 @@ export const POKEMONS: Pokemon[] = [
       Description: "Usually found in power plants. Easily mistaken for a Pokeball, they have zapped many people."
     },
     {
-      Number: 101,
-      Pokemon: "Electrode",
+      Id: 101,
+      Name: "Electrode",
       Type1: "Electric",
       Type2: "",
       HP: 60,
@@ -1416,8 +1416,8 @@ export const POKEMONS: Pokemon[] = [
       Description: "It stores electric energy under very high pressure. It often explodes with little or no provocation."
     },
     {
-      Number: 102,
-      Pokemon: "Exeggcute",
+      Id: 102,
+      Name: "Exeggcute",
       Type1: "Grass",
       Type2: "Psychic",
       HP: 60,
@@ -1430,8 +1430,8 @@ export const POKEMONS: Pokemon[] = [
       Description: "Often mistaken for eggs. When disturbed, they quickly gather and attack in swarms."
     },
     {
-      Number: 103,
-      Pokemon: "Exeggutor",
+      Id: 103,
+      Name: "Exeggutor",
       Type1: "Grass",
       Type2: "Psychic",
       HP: 95,
@@ -1444,8 +1444,8 @@ export const POKEMONS: Pokemon[] = [
       Description: "Legend has it that on rare occasions, one of its heads will drop off and continue on as an EXEGGCUTE."
     },
     {
-      Number: 104,
-      Pokemon: "Cubone",
+      Id: 104,
+      Name: "Cubone",
       Type1: "Ground",
       Type2: "",
       HP: 50,
@@ -1458,8 +1458,8 @@ export const POKEMONS: Pokemon[] = [
       Description: "Because it never removes its skull helmet, no one has ever seen this Pokemon's real face."
     },
     {
-      Number: 105,
-      Pokemon: "Marowak",
+      Id: 105,
+      Name: "Marowak",
       Type1: "Ground",
       Type2: "",
       HP: 60,
@@ -1472,8 +1472,8 @@ export const POKEMONS: Pokemon[] = [
       Description: "The bone it holds is its key weapon. It throws the bone skillfully like a boomerang to KO targets."
     },
     {
-      Number: 106,
-      Pokemon: "Hitmonlee",
+      Id: 106,
+      Name: "Hitmonlee",
       Type1: "Fighting",
       Type2: "",
       HP: 50,
@@ -1486,8 +1486,8 @@ export const POKEMONS: Pokemon[] = [
       Description: "When in a hurry, its legs lengthen progressively. It runs smoothly with extra long, loping strides."
     },
     {
-      Number: 107,
-      Pokemon: "Hitmonchan",
+      Id: 107,
+      Name: "Hitmonchan",
       Type1: "Fighting",
       Type2: "",
       HP: 50,
@@ -1500,8 +1500,8 @@ export const POKEMONS: Pokemon[] = [
       Description: "While apparently doing nothing, it fires punches in lightning fast volleys that are impossible to see."
     },
     {
-      Number: 108,
-      Pokemon: "Lickitung",
+      Id: 108,
+      Name: "Lickitung",
       Type1: "Normal",
       Type2: "",
       HP: 90,
@@ -1514,8 +1514,8 @@ export const POKEMONS: Pokemon[] = [
       Description: "Its tongue can be extended like a chameleon's. It leaves a tingling sensation when it licks enemies."
     },
     {
-      Number: 109,
-      Pokemon: "Koffing",
+      Id: 109,
+      Name: "Koffing",
       Type1: "Poison",
       Type2: "",
       HP: 40,
@@ -1528,8 +1528,8 @@ export const POKEMONS: Pokemon[] = [
       Description: "Because it stores several kinds of toxic gases in its body, it is prone to exploding without warning."
     },
     {
-      Number: 110,
-      Pokemon: "Weezing",
+      Id: 110,
+      Name: "Weezing",
       Type1: "Poison",
       Type2: "",
       HP: 65,
@@ -1542,8 +1542,8 @@ export const POKEMONS: Pokemon[] = [
       Description: "Where two kinds of poison gases meet, 2 KOFFINGs can fuse into a WEEZING over many years."
     },
     {
-      Number: 111,
-      Pokemon: "Rhyhorn",
+      Id: 111,
+      Name: "Rhyhorn",
       Type1: "Ground",
       Type2: "Rock",
       HP: 80,
@@ -1556,8 +1556,8 @@ export const POKEMONS: Pokemon[] = [
       Description: "Its massive bones are 1000 times harder than human bones. It can easily knock a trailer flying."
     },
     {
-      Number: 112,
-      Pokemon: "Rhydon",
+      Id: 112,
+      Name: "Rhydon",
       Type1: "Ground",
       Type2: "Rock",
       HP: 105,
@@ -1570,8 +1570,8 @@ export const POKEMONS: Pokemon[] = [
       Description: "Protected by an armor-like hide, it is capable of living in molten lava of 3,600 degrees."
     },
     {
-      Number: 113,
-      Pokemon: "Chansey",
+      Id: 113,
+      Name: "Chansey",
       Type1: "Normal",
       Type2: "",
       HP: 250,
@@ -1584,8 +1584,8 @@ export const POKEMONS: Pokemon[] = [
       Description: "A rare and elusive Pokemon that is said to bring happiness to those who manage to get it."
     },
     {
-      Number: 114,
-      Pokemon: "Tangela",
+      Id: 114,
+      Name: "Tangela",
       Type1: "Grass",
       Type2: "",
       HP: 65,
@@ -1598,8 +1598,8 @@ export const POKEMONS: Pokemon[] = [
       Description: "The whole body is swathed with wide vines that are similar to seaweed. Its vines shake as it walks."
     },
     {
-      Number: 115,
-      Pokemon: "Kangaskhan",
+      Id: 115,
+      Name: "Kangaskhan",
       Type1: "Normal",
       Type2: "",
       HP: 105,
@@ -1612,8 +1612,8 @@ export const POKEMONS: Pokemon[] = [
       Description: "The infant rarely ventures out of its mother's protective pouch until it is 3 years old."
     },
     {
-      Number: 116,
-      Pokemon: "Horsea",
+      Id: 116,
+      Name: "Horsea",
       Type1: "Water",
       Type2: "",
       HP: 30,
@@ -1626,8 +1626,8 @@ export const POKEMONS: Pokemon[] = [
       Description: "Known to shoot down flying bugs with precision blasts of ink from the surface of the water."
     },
     {
-      Number: 117,
-      Pokemon: "Seadra",
+      Id: 117,
+      Name: "Seadra",
       Type1: "Water",
       Type2: "",
       HP: 55,
@@ -1640,8 +1640,8 @@ export const POKEMONS: Pokemon[] = [
       Description: "Capable of swimming backwards by rapidly flapping its wing-like pectoral fins and stout tail."
     },
     {
-      Number: 118,
-      Pokemon: "Goldeen",
+      Id: 118,
+      Name: "Goldeen",
       Type1: "Water",
       Type2: "",
       HP: 45,
@@ -1654,8 +1654,8 @@ export const POKEMONS: Pokemon[] = [
       Description: "Its tail fin billows like an elegant ballroom dress, giving it the nickname of the Water Queen."
     },
     {
-      Number: 119,
-      Pokemon: "Seaking",
+      Id: 119,
+      Name: "Seaking",
       Type1: "Water",
       Type2: "",
       HP: 80,
@@ -1668,8 +1668,8 @@ export const POKEMONS: Pokemon[] = [
       Description: "In the autumn spawning season, they can be seen swimming powerfully up rivers and creeks."
     },
     {
-      Number: 120,
-      Pokemon: "Staryu",
+      Id: 120,
+      Name: "Staryu",
       Type1: "Water",
       Type2: "",
       HP: 30,
@@ -1682,8 +1682,8 @@ export const POKEMONS: Pokemon[] = [
       Description: "An enigmatic Pokemon that can effortlessly regenerate any appendage it loses in battle."
     },
     {
-      Number: 121,
-      Pokemon: "Starmie",
+      Id: 121,
+      Name: "Starmie",
       Type1: "Water",
       Type2: "Psychic",
       HP: 60,
@@ -1696,8 +1696,8 @@ export const POKEMONS: Pokemon[] = [
       Description: "Its central core glows with the seven colors of the rainbow. Some people value the core as a gem."
     },
     {
-      Number: 122,
-      Pokemon: "Mr. Mime",
+      Id: 122,
+      Name: "Mr. Mime",
       Type1: "Psychic",
       Type2: "",
       HP: 40,
@@ -1710,8 +1710,8 @@ export const POKEMONS: Pokemon[] = [
       Description: "If interrupted while it is miming, it will slap around the offender with its broad hands."
     },
     {
-      Number: 123,
-      Pokemon: "Scyther",
+      Id: 123,
+      Name: "Scyther",
       Type1: "Bug",
       Type2: "Flying",
       HP: 70,
@@ -1724,8 +1724,8 @@ export const POKEMONS: Pokemon[] = [
       Description: "With ninja-like agility and speed, it can create the illusion that there is more than one."
     },
     {
-      Number: 124,
-      Pokemon: "Jynx",
+      Id: 124,
+      Name: "Jynx",
       Type1: "Ice",
       Type2: "Psychic",
       HP: 65,
@@ -1738,8 +1738,8 @@ export const POKEMONS: Pokemon[] = [
       Description: "It seductively wiggles its hips as it walks. It can cause people to dance in unison with it."
     },
     {
-      Number: 125,
-      Pokemon: "Electabuzz",
+      Id: 125,
+      Name: "Electabuzz",
       Type1: "Electric",
       Type2: "",
       HP: 65,
@@ -1752,8 +1752,8 @@ export const POKEMONS: Pokemon[] = [
       Description: "Normally found near power plants, they can wander away and cause major blackouts in cities."
     },
     {
-      Number: 126,
-      Pokemon: "Magmar",
+      Id: 126,
+      Name: "Magmar",
       Type1: "Fire",
       Type2: "",
       HP: 65,
@@ -1766,8 +1766,8 @@ export const POKEMONS: Pokemon[] = [
       Description: "Its body always burns with an orange glow that enables it to hide perfectly among flames."
     },
     {
-      Number: 127,
-      Pokemon: "Pinsir",
+      Id: 127,
+      Name: "Pinsir",
       Type1: "Bug",
       Type2: "",
       HP: 65,
@@ -1780,8 +1780,8 @@ export const POKEMONS: Pokemon[] = [
       Description: "If it fails to crush the victim in its pincers, it will swing it around and toss it hard."
     },
     {
-      Number: 128,
-      Pokemon: "Tauros",
+      Id: 128,
+      Name: "Tauros",
       Type1: "Normal",
       Type2: "",
       HP: 75,
@@ -1794,8 +1794,8 @@ export const POKEMONS: Pokemon[] = [
       Description: "When it targets an enemy, it charges furiously while whipping its body with its long tails."
     },
     {
-      Number: 129,
-      Pokemon: "Magikarp",
+      Id: 129,
+      Name: "Magikarp",
       Type1: "Water",
       Type2: "",
       HP: 20,
@@ -1808,8 +1808,8 @@ export const POKEMONS: Pokemon[] = [
       Description: "In the distant past, it was somewhat stronger than the horribly weak descendants that exist today."
     },
     {
-      Number: 130,
-      Pokemon: "Gyarados",
+      Id: 130,
+      Name: "Gyarados",
       Type1: "Water",
       Type2: "Flying",
       HP: 95,
@@ -1822,8 +1822,8 @@ export const POKEMONS: Pokemon[] = [
       Description: "Rarely seen in the wild. Huge and vicious, it is capable of destroying entire cities in a rage."
     },
     {
-      Number: 131,
-      Pokemon: "Lapras",
+      Id: 131,
+      Name: "Lapras",
       Type1: "Water",
       Type2: "Ice",
       HP: 130,
@@ -1836,8 +1836,8 @@ export const POKEMONS: Pokemon[] = [
       Description: "A Pokemon that has been overhunted almost to extinction. It can ferry people across the water."
     },
     {
-      Number: 132,
-      Pokemon: "Ditto",
+      Id: 132,
+      Name: "Ditto",
       Type1: "Normal",
       Type2: "",
       HP: 48,
@@ -1850,8 +1850,8 @@ export const POKEMONS: Pokemon[] = [
       Description: "Capable of copying an enemy's genetic code to instantly transform itself into a duplicate of the enemy."
     },
     {
-      Number: 133,
-      Pokemon: "Eevee",
+      Id: 133,
+      Name: "Eevee",
       Type1: "Normal",
       Type2: "",
       HP: 55,
@@ -1864,8 +1864,8 @@ export const POKEMONS: Pokemon[] = [
       Description: "Its genetic code is irregular. It may mutate if it is exposed to radiation from element STONEs."
     },
     {
-      Number: 134,
-      Pokemon: "Vaporeon",
+      Id: 134,
+      Name: "Vaporeon",
       Type1: "Water",
       Type2: "",
       HP: 130,
@@ -1878,8 +1878,8 @@ export const POKEMONS: Pokemon[] = [
       Description: "Lives close to water. Its long tail is ridged with a fin which is often mistaken for a mermaid's."
     },
     {
-      Number: 135,
-      Pokemon: "Jolteon",
+      Id: 135,
+      Name: "Jolteon",
       Type1: "Electric",
       Type2: "",
       HP: 65,
@@ -1892,8 +1892,8 @@ export const POKEMONS: Pokemon[] = [
       Description: "It accumulates negative ions in the atmosphere to blast out 10000- volt lightning bolts."
     },
     {
-      Number: 136,
-      Pokemon: "Flareon",
+      Id: 136,
+      Name: "Flareon",
       Type1: "Fire",
       Type2: "",
       HP: 65,
@@ -1906,8 +1906,8 @@ export const POKEMONS: Pokemon[] = [
       Description: "When storing thermal energy in its body, its temperature could soar to over 1600 degrees."
     },
     {
-      Number: 137,
-      Pokemon: "Porygon",
+      Id: 137,
+      Name: "Porygon",
       Type1: "Normal",
       Type2: "",
       HP: 65,
@@ -1920,8 +1920,8 @@ export const POKEMONS: Pokemon[] = [
       Description: "A Pokemon that consists entirely of programming code. Capable of moving freely in cyberspace."
     },
     {
-      Number: 138,
-      Pokemon: "Omanyte",
+      Id: 138,
+      Name: "Omanyte",
       Type1: "Rock",
       Type2: "Water",
       HP: 35,
@@ -1934,8 +1934,8 @@ export const POKEMONS: Pokemon[] = [
       Description: "Although long extinct, in rare cases, it can be genetically resurrected from fossils."
     },
     {
-      Number: 139,
-      Pokemon: "Omastar",
+      Id: 139,
+      Name: "Omastar",
       Type1: "Rock",
       Type2: "Water",
       HP: 70,
@@ -1948,8 +1948,8 @@ export const POKEMONS: Pokemon[] = [
       Description: "A prehistoric Pokemon that died out when its heavy shell made it impossible to catch prey."
     },
     {
-      Number: 140,
-      Pokemon: "Kabuto",
+      Id: 140,
+      Name: "Kabuto",
       Type1: "Rock",
       Type2: "Water",
       HP: 30,
@@ -1962,8 +1962,8 @@ export const POKEMONS: Pokemon[] = [
       Description: "A Pokemon that was resurrected from a fossil found in what was once the ocean floor eons ago."
     },
     {
-      Number: 141,
-      Pokemon: "Kabutops",
+      Id: 141,
+      Name: "Kabutops",
       Type1: "Rock",
       Type2: "Water",
       HP: 60,
@@ -1976,8 +1976,8 @@ export const POKEMONS: Pokemon[] = [
       Description: "Its sleek shape is perfect for swimming. It slashes prey with its claws and drains the body fluids."
     },
     {
-      Number: 142,
-      Pokemon: "Aerodactyl",
+      Id: 142,
+      Name: "Aerodactyl",
       Type1: "Rock",
       Type2: "Flying",
       HP: 80,
@@ -1990,8 +1990,8 @@ export const POKEMONS: Pokemon[] = [
       Description: "A ferocious, prehistoric Pokemon that goes for the enemy's throat with its serrated saw-like fangs."
     },
     {
-      Number: 143,
-      Pokemon: "Snorlax",
+      Id: 143,
+      Name: "Snorlax",
       Type1: "Normal",
       Type2: "",
       HP: 160,
@@ -2004,8 +2004,8 @@ export const POKEMONS: Pokemon[] = [
       Description: "Very lazy. Just eats and sleeps. As its rotund bulk builds, it becomes steadily more slothful."
     },
     {
-      Number: 144,
-      Pokemon: "Articuno",
+      Id: 144,
+      Name: "Articuno",
       Type1: "Ice",
       Type2: "Flying",
       HP: 90,
@@ -2018,8 +2018,8 @@ export const POKEMONS: Pokemon[] = [
       Description: "A legendary bird Pokemon that is said to appear to doomed people who are lost in icy mountains."
     },
     {
-      Number: 145,
-      Pokemon: "Zapdos",
+      Id: 145,
+      Name: "Zapdos",
       Type1: "Electric",
       Type2: "Flying",
       HP: 90,
@@ -2032,8 +2032,8 @@ export const POKEMONS: Pokemon[] = [
       Description: "A legendary bird Pokemon that is said to appear from clouds while dropping enormous lightning bolts."
     },
     {
-      Number: 146,
-      Pokemon: "Moltres",
+      Id: 146,
+      Name: "Moltres",
       Type1: "Fire",
       Type2: "Flying",
       HP: 90,
@@ -2046,8 +2046,8 @@ export const POKEMONS: Pokemon[] = [
       Description: "Known as the legendary bird of fire. Every flap of its wings creates a dazzling flash of flames."
     },
     {
-      Number: 147,
-      Pokemon: "Dratini",
+      Id: 147,
+      Name: "Dratini",
       Type1: "Dragon",
       Type2: "",
       HP: 41,
@@ -2060,8 +2060,8 @@ export const POKEMONS: Pokemon[] = [
       Description: "Long considered a mythical Pokemon until recently when a small colony was found living underwater."
     },
     {
-      Number: 148,
-      Pokemon: "Dragonair",
+      Id: 148,
+      Name: "Dragonair",
       Type1: "Dragon",
       Type2: "",
       HP: 61,
@@ -2074,8 +2074,8 @@ export const POKEMONS: Pokemon[] = [
       Description: "A mystical Pokemon that exudes a gentle aura. Has the ability to change climate conditions."
     },
     {
-      Number: 149,
-      Pokemon: "Dragonite",
+      Id: 149,
+      Name: "Dragonite",
       Type1: "Dragon",
       Type2: "Flying",
       HP: 91,
@@ -2088,8 +2088,8 @@ export const POKEMONS: Pokemon[] = [
       Description: "An extremely rarely seen marine Pokemon. Its intelligence is said to match that of humans."
     },
     {
-      Number: 150,
-      Pokemon: "Mewtwo",
+      Id: 150,
+      Name: "Mewtwo",
       Type1: "Psychic",
       Type2: "",
       HP: 106,
@@ -2102,8 +2102,8 @@ export const POKEMONS: Pokemon[] = [
       Description: "It was created by a scientist after years of horrific gene splicing and DNA engineering experiments."
     },
     {
-      Number: 151,
-      Pokemon: "Mew",
+      Id: 151,
+      Name: "Mew",
       Type1: "Psychic",
       Type2: "",
       HP: 100,

@@ -1,3 +1,4 @@
+import { DetailPokemonComponent } from './projets/pokemon/detail-pokemon/detail-pokemon.component';
 import { QuiSuisJeComponent } from './qui-suis-je/qui-suis-je.component';
 import { YouloopComponent } from './projets/youloop/youloop.component';
 import { Error404Component } from './error404/error404.component';
@@ -13,6 +14,7 @@ const routes: Routes = [
   { path: "quiSuisJe", component: QuiSuisJeComponent},
   { path: "projets/youloop", component: YouloopComponent},
   { path: "projets/pokemon", component: PokemonComponent},
+  { path: "projets/pokemon/:Id", component: DetailPokemonComponent},
   { path: "", component: HomeComponent},
   { path: "**", component: Error404Component}
 ];
