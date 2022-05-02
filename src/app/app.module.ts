@@ -15,6 +15,7 @@ import { PokemonTypeColorPipe } from './projets/pokemon/pokemon-type-color.pipe'
 import { ListPokemonComponent } from './projets/pokemon/list-pokemon/list-pokemon.component';
 import { DetailPokemonComponent } from './projets/pokemon/detail-pokemon/detail-pokemon.component';
 
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -28,7 +29,8 @@ import { DetailPokemonComponent } from './projets/pokemon/detail-pokemon/detail-
     BorderCardDirective,
     PokemonTypeColorPipe,
     ListPokemonComponent,
-    DetailPokemonComponent
+    DetailPokemonComponent,
+
   ],
   imports: [
     BrowserModule,
