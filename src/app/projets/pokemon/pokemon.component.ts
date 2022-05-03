@@ -20,7 +20,7 @@ export class PokemonComponent implements OnInit {
   constructor(private router: Router) {}
 
   goToPokemon(pokemon: Pokemon){
-    this.router.navigate(['projets/pokemon', pokemon.Id]);
+    this.router.navigate(['projets/pokemon', pokemon.id]);
   }
 
   ngOnInit() {

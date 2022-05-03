@@ -1,11 +1,11 @@
 export interface Pokemon {
-  Id: number;
-  Name: string;
-  Type1: string;
-  Type2: string;
-  HP: number;
-  Attack: number;
-  Defense: number;
+  id: number;
+  name: string;
+  types: Array<string>;
+  Type2?: string;
+  hp: number;
+  cp: number;
+  def: number;
   Speed: number;
   Special: number;
   GIF: string;

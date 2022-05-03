@@ -1,7 +1,7 @@
 <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css"> -->
 <div *ngIf="pokemon" class="row w-50 m-auto pb-5 mt-5 shadow">
   <div class="col s12 m8 offset-m5 mx-5">
-    <h2 style="font-size: 7vw;" class="header text-center mb-5">{{pokemon.Name}}</h2>
+    <h2 style="font-size: 7vw;" class="header text-center mb-5">{{pokemon.name}}</h2>
     <div class="card horizontal hoverable border-0">
       <div class="card-image ms-5">
         <img class="w-25 " src="{{pokemon.GIF}}">
@@ -12,15 +12,15 @@
             <tbody>
               <tr>
                 <td>Nom</td>
-                <td><strong>{{ pokemon.Name }}</strong></td>
+                <td><strong>{{ pokemon.name }}</strong></td>
               </tr>
               <tr>
                 <td>Points de vie</td>
-                <td><strong>{{ pokemon.HP }}</strong></td>
+                <td><strong>{{ pokemon.hp }}</strong></td>
               </tr>
               <tr>
                 <td>Dégâts</td>
-                <td><strong>{{ pokemon.Attack }}</strong></td>
+                <td><strong>{{ pokemon.cp }}</strong></td>
               </tr>
               <tr>
                 <td>Vitesse</td>
@@ -29,8 +29,8 @@
               <tr>
                 <td>Types</td>
                 <td>
-                  <span class="{{pokemon.Type1 | pokemonTypeColor}}">{{pokemon.Type1}}</span>
-                  <span *ngIf="pokemon.Type2 != ''" class="{{pokemon.Type1 | pokemonTypeColor}}"> {{pokemon.Type2}}</span>
+                  <span class="{{pokemon.types | pokemonTypeColor}}">{{pokemon.types}}</span>
+                  <span *ngIf="pokemon.Type2 != ''" class="{{pokemon.types | pokemonTypeColor}}"> {{pokemon.Type2}}</span>
                 </td>
               </tr>
               <tr>
