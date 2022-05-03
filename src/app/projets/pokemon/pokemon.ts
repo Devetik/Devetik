@@ -2,7 +2,6 @@ export interface Pokemon {
   id: number;
   name: string;
   types: Array<string>;
-  Type2?: string;
   hp: number;
   cp: number;
   def: number;

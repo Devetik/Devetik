@@ -29,8 +29,11 @@
               <tr>
                 <td>Types</td>
                 <td>
-                  <span class="{{pokemon.types | pokemonTypeColor}}">{{pokemon.types}}</span>
-                  <span *ngIf="pokemon.Type2 != ''" class="{{pokemon.types | pokemonTypeColor}}"> {{pokemon.Type2}}</span>
+                  <span *ngFor="let Type of pokemon.types">
+                    <p *ngIf="Type" class="{{Type | pokemonTypeColor}}">{{Type}}</p>
+                  </span>
+                  <!-- <span class="{{pokemon.types | pokemonTypeColor}}">{{pokemon.types}}</span>
+                  <span *ngIf="pokemon.Type2 != ''" class="{{pokemon.types | pokemonTypeColor}}"> {{pokemon.Type2}}</span> -->
                 </td>
               </tr>
               <tr>

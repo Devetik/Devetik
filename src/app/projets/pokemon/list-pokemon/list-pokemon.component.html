@@ -20,8 +20,11 @@
               <p>{{pokemon.hp}} ❤</p>
               <p>{{pokemon.cp}} ⚔</p>
               <p>{{pokemon.def}} 🛡</p>
-              <p class="{{pokemon.types | pokemonTypeColor}}"> {{pokemon.types}}
-              <p *ngIf="pokemon.Type2 != ''" class="{{pokemon.Type2 | pokemonTypeColor}}">{{pokemon.Type2}}</p>
+              <div *ngFor="let Type of pokemon.types">
+                <p class="{{Type | pokemonTypeColor}}"></p>
+              </div>
+              <!-- <p class="{{pokemon.types | pokemonTypeColor}}"> {{pokemon.types}}
+              <p *ngIf="pokemon.Type2 != ''" class="{{pokemon.Type2 | pokemonTypeColor}}">{{pokemon.Type2}}</p> -->
             </div>
           </div>
         </div>

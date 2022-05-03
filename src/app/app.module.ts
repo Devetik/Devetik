@@ -10,6 +10,7 @@ import { Error404Component } from './error404/error404.component';
 import { QuiSuisJeComponent } from './qui-suis-je/qui-suis-je.component';
 import { HttpClientModule } from '@angular/common/http';
 import { PokemonModule } from './projets/pokemon/pokemon.module';
+import { FormsModule } from '@angular/forms';
 
 
 
@@ -25,6 +26,7 @@ import { PokemonModule } from './projets/pokemon/pokemon.module';
   ],
   imports: [
     BrowserModule,
+    FormsModule,
     PokemonModule,
     AppRoutingModule,
     HttpClientModule,

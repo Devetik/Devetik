@@ -4,8 +4,7 @@ export const POKEMONS: Pokemon[] = [
     {
       id: 1,
       name: "Bulbasaur",
-      types: "Grass",
-      Type2: "Poison",
+      types: ["Grass", "Poison"],
       hp: 45,
       cp: 49,
       def: 49,
@@ -18,8 +17,7 @@ export const POKEMONS: Pokemon[] = [
     {
       id: 2,
       name: "Ivysaur",
-      types: "Grass",
-      Type2: "Poison",
+      types: ["Grass", "Poison"],
       hp: 60,
       cp: 62,
       def: 63,
@@ -32,8 +30,7 @@ export const POKEMONS: Pokemon[] = [
     {
       id: 3,
       name: "Venusaur",
-      types: "Grass",
-      Type2: "Poison",
+      types: ["Grass", "Poison"],
       hp: 80,
       cp: 82,
       def: 83,
@@ -46,8 +43,7 @@ export const POKEMONS: Pokemon[] = [
     {
       id: 4,
       name: "Charmander",
-      types: "Fire",
-      Type2: "",
+      types: ["Fire", ""],
       hp: 39,
       cp: 52,
       def: 43,
@@ -60,8 +56,7 @@ export const POKEMONS: Pokemon[] = [
     {
       id: 5,
       name: "Charmeleon",
-      types: "Fire",
-      Type2: "",
+      types: ["Fire", ""],
       hp: 58,
       cp: 64,
       def: 58,
@@ -74,8 +69,7 @@ export const POKEMONS: Pokemon[] = [
     {
       id: 6,
       name: "Charizard",
-      types: "Fire",
-      Type2: "Flying",
+      types: ["Fire", "Flying"],
       hp: 78,
       cp: 84,
       def: 78,
@@ -88,8 +82,7 @@ export const POKEMONS: Pokemon[] = [
     {
       id: 7,
       name: "Squirtle",
-      types: "Water",
-      Type2: "",
+      types: ["Water", ""],
       hp: 44,
       cp: 48,
       def: 65,
@@ -102,8 +95,7 @@ export const POKEMONS: Pokemon[] = [
     {
       id: 8,
       name: "Wartortle",
-      types: "Water",
-      Type2: "",
+      types: ["Water", ""],
       hp: 59,
       cp: 63,
       def: 80,
@@ -116,8 +108,7 @@ export const POKEMONS: Pokemon[] = [
     {
       id: 9,
       name: "Blastoise",
-      types: "Water",
-      Type2: "",
+      types: ["Water", ""],
       hp: 79,
       cp: 83,
       def: 100,
@@ -130,8 +121,7 @@ export const POKEMONS: Pokemon[] = [
     {
       id: 10,
       name: "Caterpie",
-      types: "Bug",
-      Type2: "",
+      types: ["Bug", ""],
       hp: 45,
       cp: 30,
       def: 35,
@@ -144,8 +134,7 @@ export const POKEMONS: Pokemon[] = [
     {
       id: 11,
       name: "Metapod",
-      types: "Bug",
-      Type2: "",
+      types: ["Bug", ""],
       hp: 50,
       cp: 20,
       def: 55,
@@ -158,8 +147,7 @@ export const POKEMONS: Pokemon[] = [
     {
       id: 12,
       name: "Butterfree",
-      types: "Bug",
-      Type2: "Flying",
+      types: ["Bug", "Flying"],
       hp: 60,
       cp: 45,
       def: 50,
@@ -172,8 +160,7 @@ export const POKEMONS: Pokemon[] = [
     {
       id: 13,
       name: "Weedle",
-      types: "Bug",
-      Type2: "Poison",
+      types: ["Bug", "Poison"],
       hp: 40,
       cp: 35,
       def: 30,
@@ -186,8 +173,7 @@ export const POKEMONS: Pokemon[] = [
     {
       id: 14,
       name: "Kakuna",
-      types: "Bug",
-      Type2: "Poison",
+      types: ["Bug", "Poison"],
       hp: 45,
       cp: 25,
       def: 50,
@@ -200,8 +186,7 @@ export const POKEMONS: Pokemon[] = [
     {
       id: 15,
       name: "Beedrill",
-      types: "Bug",
-      Type2: "Poison",
+      types: ["Bug", "Poison"],
       hp: 65,
       cp: 80,
       def: 40,
@@ -214,8 +199,7 @@ export const POKEMONS: Pokemon[] = [
     {
       id: 16,
       name: "Pidgey",
-      types: "Normal",
-      Type2: "Flying",
+      types: ["Normal", "Flying"],
       hp: 40,
       cp: 45,
       def: 40,
@@ -228,8 +212,7 @@ export const POKEMONS: Pokemon[] = [
     {
       id: 17,
       name: "Pidgeotto",
-      types: "Normal",
-      Type2: "Flying",
+      types: ["Normal", "Flying"],
       hp: 63,
       cp: 60,
       def: 55,
@@ -242,8 +225,7 @@ export const POKEMONS: Pokemon[] = [
     {
       id: 18,
       name: "Pidgeot",
-      types: "Normal",
-      Type2: "Flying",
+      types: ["Normal", "Flying"],
       hp: 83,
       cp: 80,
       def: 75,
@@ -256,8 +238,7 @@ export const POKEMONS: Pokemon[] = [
     {
       id: 19,
       name: "Rattata",
-      types: "Normal",
-      Type2: "",
+      types: ["Normal", ""],
       hp: 30,
       cp: 56,
       def: 35,
@@ -270,8 +251,7 @@ export const POKEMONS: Pokemon[] = [
     {
       id: 20,
       name: "Raticate",
-      types: "Normal",
-      Type2: "",
+      types: ["Normal", ""],
       hp: 55,
       cp: 81,
       def: 60,
@@ -284,8 +264,7 @@ export const POKEMONS: Pokemon[] = [
     {
       id: 21,
       name: "Spearow",
-      types: "Normal",
-      Type2: "Flying",
+      types: ["Normal", "Flying"],
       hp: 40,
       cp: 60,
       def: 30,
@@ -298,8 +277,7 @@ export const POKEMONS: Pokemon[] = [
     {
       id: 22,
       name: "Fearow",
-      types: "Normal",
-      Type2: "Flying",
+      types: ["Normal", "Flying"],
       hp: 65,
       cp: 90,
       def: 65,
@@ -312,8 +290,7 @@ export const POKEMONS: Pokemon[] = [
     {
       id: 23,
       name: "Ekans",
-      types: "Poison",
-      Type2: "",
+      types: ["Poison", ""],
       hp: 35,
       cp: 60,
       def: 44,
@@ -326,8 +303,7 @@ export const POKEMONS: Pokemon[] = [
     {
       id: 24,
       name: "Arbok",
-      types: "Poison",
-      Type2: "",
+      types: ["Poison", ""],
       hp: 60,
       cp: 85,
       def: 69,
@@ -340,8 +316,7 @@ export const POKEMONS: Pokemon[] = [
     {
       id: 25,
       name: "Pikachu",
-      types: "Electric",
-      Type2: "",
+      types: ["Electric", ""],
       hp: 35,
       cp: 55,
       def: 30,
@@ -354,8 +329,7 @@ export const POKEMONS: Pokemon[] = [
     {
       id: 26,
       name: "Raichu",
-      types: "Electric",
-      Type2: "",
+      types: ["Electric", ""],
       hp: 60,
       cp: 90,
       def: 55,
@@ -368,8 +342,7 @@ export const POKEMONS: Pokemon[] = [
     {
       id: 27,
       name: "Sandshrew",
-      types: "Ground",
-      Type2: "",
+      types: ["Ground", ""],
       hp: 50,
       cp: 75,
       def: 85,
@@ -382,8 +355,7 @@ export const POKEMONS: Pokemon[] = [
     {
       id: 28,
       name: "Sandslash",
-      types: "Ground",
-      Type2: "",
+      types: ["Ground", ""],
       hp: 75,
       cp: 100,
       def: 110,
@@ -396,8 +368,7 @@ export const POKEMONS: Pokemon[] = [
     {
       id: 29,
       name: "NidoranF",
-      types: "Poison",
-      Type2: "",
+      types: ["Poison", ""],
       hp: 55,
       cp: 47,
       def: 52,
@@ -410,8 +381,7 @@ export const POKEMONS: Pokemon[] = [
     {
       id: 30,
       name: "Nidorina",
-      types: "Poison",
-      Type2: "",
+      types: ["Poison", ""],
       hp: 70,
       cp: 62,
       def: 67,
@@ -424,8 +394,7 @@ export const POKEMONS: Pokemon[] = [
     {
       id: 31,
       name: "Nidoqueen",
-      types: "Poison",
-      Type2: "Ground",
+      types: ["Poison", "Ground"],
       hp: 90,
       cp: 82,
       def: 87,
@@ -438,8 +407,7 @@ export const POKEMONS: Pokemon[] = [
     {
       id: 32,
       name: "NidoranM",
-      types: "Poison",
-      Type2: "",
+      types: ["Poison", ""],
       hp: 46,
       cp: 57,
       def: 40,
@@ -452,8 +420,7 @@ export const POKEMONS: Pokemon[] = [
     {
       id: 33,
       name: "Nidorino",
-      types: "Poison",
-      Type2: "",
+      types: ["Poison", ""],
       hp: 61,
       cp: 72,
       def: 57,
@@ -466,8 +433,7 @@ export const POKEMONS: Pokemon[] = [
     {
       id: 34,
       name: "Nidoking",
-      types: "Poison",
-      Type2: "Ground",
+      types: ["Poison", "Ground"],
       hp: 81,
       cp: 92,
       def: 77,
@@ -480,8 +446,7 @@ export const POKEMONS: Pokemon[] = [
     {
       id: 35,
       name: "Clefairy",
-      types: "Normal",
-      Type2: "",
+      types: ["Normal", ""],
       hp: 70,
       cp: 45,
       def: 48,
@@ -494,8 +459,7 @@ export const POKEMONS: Pokemon[] = [
     {
       id: 36,
       name: "Clefable",
-      types: "Normal",
-      Type2: "",
+      types: ["Normal", ""],
       hp: 95,
       cp: 70,
       def: 73,
@@ -508,8 +472,7 @@ export const POKEMONS: Pokemon[] = [
     {
       id: 37,
       name: "Vulpix",
-      types: "Fire",
-      Type2: "",
+      types: ["Fire", ""],
       hp: 38,
       cp: 41,
       def: 40,
@@ -522,8 +485,7 @@ export const POKEMONS: Pokemon[] = [
     {
       id: 38,
       name: "Ninetales",
-      types: "Fire",
-      Type2: "",
+      types: ["Fire", ""],
       hp: 73,
       cp: 76,
       def: 75,
@@ -536,8 +498,7 @@ export const POKEMONS: Pokemon[] = [
     {
       id: 39,
       name: "Jigglypuff",
-      types: "Normal",
-      Type2: "",
+      types: ["Normal", ""],
       hp: 115,
       cp: 45,
       def: 20,
@@ -550,8 +511,7 @@ export const POKEMONS: Pokemon[] = [
     {
       id: 40,
       name: "Wigglytuff",
-      types: "Normal",
-      Type2: "",
+      types: ["Normal", ""],
       hp: 140,
       cp: 70,
       def: 45,
@@ -564,8 +524,7 @@ export const POKEMONS: Pokemon[] = [
     {
       id: 41,
       name: "Zubat",
-      types: "Poison",
-      Type2: "Flying",
+      types: ["Poison", "Flying"],
       hp: 40,
       cp: 45,
       def: 35,
@@ -578,8 +537,7 @@ export const POKEMONS: Pokemon[] = [
     {
       id: 42,
       name: "Golbat",
-      types: "Poison",
-      Type2: "Flying",
+      types: ["Poison", "Flying"],
       hp: 75,
       cp: 80,
       def: 70,
@@ -592,8 +550,7 @@ export const POKEMONS: Pokemon[] = [
     {
       id: 43,
       name: "Oddish",
-      types: "Grass",
-      Type2: "Poison",
+      types: ["Grass", "Poison"],
       hp: 45,
       cp: 50,
       def: 55,
@@ -606,8 +563,7 @@ export const POKEMONS: Pokemon[] = [
     {
       id: 44,
       name: "Gloom",
-      types: "Grass",
-      Type2: "Poison",
+      types: ["Grass", "Poison"],
       hp: 60,
       cp: 65,
       def: 70,
@@ -620,8 +576,7 @@ export const POKEMONS: Pokemon[] = [
     {
       id: 45,
       name: "Vileplume",
-      types: "Grass",
-      Type2: "Poison",
+      types: ["Grass", "Poison"],
       hp: 75,
       cp: 80,
       def: 85,
@@ -634,8 +589,7 @@ export const POKEMONS: Pokemon[] = [
     {
       id: 46,
       name: "Paras",
-      types: "Bug",
-      Type2: "Grass",
+      types: ["Bug", "Grass"],
       hp: 35,
       cp: 70,
       def: 55,
@@ -648,8 +602,7 @@ export const POKEMONS: Pokemon[] = [
     {
       id: 47,
       name: "Parasect",
-      types: "Bug",
-      Type2: "Grass",
+      types: ["Bug", "Grass"],
       hp: 60,
       cp: 95,
       def: 80,
@@ -662,8 +615,7 @@ export const POKEMONS: Pokemon[] = [
     {
       id: 48,
       name: "Venonat",
-      types: "Bug",
-      Type2: "Poison",
+      types: ["Bug", "Poison"],
       hp: 60,
       cp: 55,
       def: 50,
@@ -676,8 +628,7 @@ export const POKEMONS: Pokemon[] = [
     {
       id: 49,
       name: "Venomoth",
-      types: "Bug",
-      Type2: "Poison",
+      types: ["Bug", "Poison"],
       hp: 70,
       cp: 65,
       def: 60,
@@ -690,8 +641,7 @@ export const POKEMONS: Pokemon[] = [
     {
       id: 50,
       name: "Diglett",
-      types: "Ground",
-      Type2: "",
+      types: ["Ground", ""],
       hp: 10,
       cp: 55,
       def: 25,
@@ -704,8 +654,7 @@ export const POKEMONS: Pokemon[] = [
     {
       id: 51,
       name: "Dugtrio",
-      types: "Ground",
-      Type2: "",
+      types: ["Ground", ""],
       hp: 35,
       cp: 80,
       def: 50,
@@ -718,8 +667,7 @@ export const POKEMONS: Pokemon[] = [
     {
       id: 52,
       name: "Meowth",
-      types: "Normal",
-      Type2: "",
+      types: ["Normal", ""],
       hp: 40,
       cp: 45,
       def: 35,
@@ -732,8 +680,7 @@ export const POKEMONS: Pokemon[] = [
     {
       id: 53,
       name: "Persian",
-      types: "Normal",
-      Type2: "",
+      types: ["Normal", ""],
       hp: 65,
       cp: 70,
       def: 60,
@@ -746,8 +693,7 @@ export const POKEMONS: Pokemon[] = [
     {
       id: 54,
       name: "Psyduck",
-      types: "Water",
-      Type2: "",
+      types: ["Water", ""],
       hp: 50,
       cp: 52,
       def: 48,
@@ -760,8 +706,7 @@ export const POKEMONS: Pokemon[] = [
     {
       id: 55,
       name: "Golduck",
-      types: "Water",
-      Type2: "",
+      types: ["Water", ""],
       hp: 80,
       cp: 82,
       def: 78,
@@ -774,8 +719,7 @@ export const POKEMONS: Pokemon[] = [
     {
       id: 56,
       name: "Mankey",
-      types: "Fighting",
-      Type2: "",
+      types: ["Fighting", ""],
       hp: 40,
       cp: 80,
       def: 35,
@@ -788,8 +732,7 @@ export const POKEMONS: Pokemon[] = [
     {
       id: 57,
       name: "Primeape",
-      types: "Fighting",
-      Type2: "",
+      types: ["Fighting", ""],
       hp: 65,
       cp: 105,
       def: 60,
@@ -802,8 +745,7 @@ export const POKEMONS: Pokemon[] = [
     {
       id: 58,
       name: "Growlithe",
-      types: "Fire",
-      Type2: "",
+      types: ["Fire", ""],
       hp: 55,
       cp: 70,
       def: 45,
@@ -816,8 +758,7 @@ export const POKEMONS: Pokemon[] = [
     {
       id: 59,
       name: "Arcanine",
-      types: "Fire",
-      Type2: "",
+      types: ["Fire", ""],
       hp: 90,
       cp: 110,
       def: 80,
@@ -830,8 +771,7 @@ export const POKEMONS: Pokemon[] = [
     {
       id: 60,
       name: "Poliwag",
-      types: "Water",
-      Type2: "",
+      types: ["Water", ""],
       hp: 40,
       cp: 50,
       def: 40,
@@ -844,8 +784,7 @@ export const POKEMONS: Pokemon[] = [
     {
       id: 61,
       name: "Poliwhirl",
-      types: "Water",
-      Type2: "",
+      types: ["Water", ""],
       hp: 65,
       cp: 65,
       def: 65,
@@ -858,8 +797,7 @@ export const POKEMONS: Pokemon[] = [
     {
       id: 62,
       name: "Poliwrath",
-      types: "Water",
-      Type2: "Fighting",
+      types: ["Water", "Fighting"],
       hp: 90,
       cp: 85,
       def: 95,
@@ -872,8 +810,7 @@ export const POKEMONS: Pokemon[] = [
     {
       id: 63,
       name: "Abra",
-      types: "Psychic",
-      Type2: "",
+      types: ["Psychic", ""],
       hp: 25,
       cp: 20,
       def: 15,
@@ -886,8 +823,7 @@ export const POKEMONS: Pokemon[] = [
     {
       id: 64,
       name: "Kadabra",
-      types: "Psychic",
-      Type2: "",
+      types: ["Psychic", ""],
       hp: 40,
       cp: 35,
       def: 30,
@@ -900,8 +836,7 @@ export const POKEMONS: Pokemon[] = [
     {
       id: 65,
       name: "Alakazam",
-      types: "Psychic",
-      Type2: "",
+      types: ["Psychic", ""],
       hp: 55,
       cp: 50,
       def: 45,
@@ -914,8 +849,7 @@ export const POKEMONS: Pokemon[] = [
     {
       id: 66,
       name: "Machop",
-      types: "Fighting",
-      Type2: "",
+      types: ["Fighting", ""],
       hp: 70,
       cp: 80,
       def: 50,
@@ -928,8 +862,7 @@ export const POKEMONS: Pokemon[] = [
     {
       id: 67,
       name: "Machoke",
-      types: "Fighting",
-      Type2: "",
+      types: ["Fighting", ""],
       hp: 80,
       cp: 100,
       def: 70,
@@ -942,8 +875,7 @@ export const POKEMONS: Pokemon[] = [
     {
       id: 68,
       name: "Machamp",
-      types: "Fighting",
-      Type2: "",
+      types: ["Fighting", ""],
       hp: 90,
       cp: 130,
       def: 80,
@@ -956,8 +888,7 @@ export const POKEMONS: Pokemon[] = [
     {
       id: 69,
       name: "Bellsprout",
-      types: "Grass",
-      Type2: "Poison",
+      types: ["Grass", "Poison"],
       hp: 50,
       cp: 75,
       def: 35,
@@ -970,8 +901,7 @@ export const POKEMONS: Pokemon[] = [
     {
       id: 70,
       name: "Weepinbell",
-      types: "Grass",
-      Type2: "Poison",
+      types: ["Grass", "Poison"],
       hp: 65,
       cp: 90,
       def: 50,
@@ -984,8 +914,7 @@ export const POKEMONS: Pokemon[] = [
     {
       id: 71,
       name: "Victreebel",
-      types: "Grass",
-      Type2: "Poison",
+      types: ["Grass", "Poison"],
       hp: 80,
       cp: 105,
       def: 65,
@@ -998,8 +927,7 @@ export const POKEMONS: Pokemon[] = [
     {
       id: 72,
       name: "Tentacool",
-      types: "Water",
-      Type2: "Poison",
+      types: ["Water", "Poison"],
       hp: 40,
       cp: 40,
       def: 35,
@@ -1012,8 +940,7 @@ export const POKEMONS: Pokemon[] = [
     {
       id: 73,
       name: "Tentacruel",
-      types: "Water",
-      Type2: "Poison",
+      types: ["Water", "Poison"],
       hp: 80,
       cp: 70,
       def: 65,
@@ -1026,8 +953,7 @@ export const POKEMONS: Pokemon[] = [
     {
       id: 74,
       name: "Geodude",
-      types: "Rock",
-      Type2: "Ground",
+      types: ["Rock", "Ground"],
       hp: 40,
       cp: 80,
       def: 100,
@@ -1040,8 +966,7 @@ export const POKEMONS: Pokemon[] = [
     {
       id: 75,
       name: "Graveler",
-      types: "Rock",
-      Type2: "Ground",
+      types: ["Rock", "Ground"],
       hp: 55,
       cp: 95,
       def: 115,
@@ -1054,8 +979,7 @@ export const POKEMONS: Pokemon[] = [
     {
       id: 76,
       name: "Golem",
-      types: "Rock",
-      Type2: "Ground",
+      types: ["Rock", "Ground"],
       hp: 80,
       cp: 110,
       def: 130,
@@ -1068,8 +992,7 @@ export const POKEMONS: Pokemon[] = [
     {
       id: 77,
       name: "Ponyta",
-      types: "Fire",
-      Type2: "",
+      types: ["Fire", ""],
       hp: 50,
       cp: 85,
       def: 55,
@@ -1082,8 +1005,7 @@ export const POKEMONS: Pokemon[] = [
     {
       id: 78,
       name: "Rapidash",
-      types: "Fire",
-      Type2: "",
+      types: ["Fire", ""],
       hp: 65,
       cp: 100,
       def: 70,
@@ -1096,8 +1018,7 @@ export const POKEMONS: Pokemon[] = [
     {
       id: 79,
       name: "Slowpoke",
-      types: "Water",
-      Type2: "Psychic",
+      types: ["Water", "Psychic"],
       hp: 90,
       cp: 65,
       def: 65,
@@ -1110,8 +1031,7 @@ export const POKEMONS: Pokemon[] = [
     {
       id: 80,
       name: "Slowbro",
-      types: "Water",
-      Type2: "Psychic",
+      types: ["Water", "Psychic"],
       hp: 95,
       cp: 75,
       def: 110,
@@ -1124,8 +1044,7 @@ export const POKEMONS: Pokemon[] = [
     {
       id: 81,
       name: "Magnemite",
-      types: "Electric",
-      Type2: "",
+      types: ["Electric", ""],
       hp: 25,
       cp: 35,
       def: 70,
@@ -1138,8 +1057,7 @@ export const POKEMONS: Pokemon[] = [
     {
       id: 82,
       name: "Magneton",
-      types: "Electric",
-      Type2: "",
+      types: ["Electric", ""],
       hp: 50,
       cp: 60,
       def: 95,
@@ -1152,8 +1070,7 @@ export const POKEMONS: Pokemon[] = [
     {
       id: 83,
       name: "Farfetch'd",
-      types: "Normal",
-      Type2: "Flying",
+      types: ["Normal", "Flying"],
       hp: 52,
       cp: 65,
       def: 55,
@@ -1166,8 +1083,7 @@ export const POKEMONS: Pokemon[] = [
     {
       id: 84,
       name: "Doduo",
-      types: "Normal",
-      Type2: "Flying",
+      types: ["Normal", "Flying"],
       hp: 35,
       cp: 85,
       def: 45,
@@ -1180,8 +1096,7 @@ export const POKEMONS: Pokemon[] = [
     {
       id: 85,
       name: "Dodrio",
-      types: "Normal",
-      Type2: "Flying",
+      types: ["Normal", "Flying"],
       hp: 60,
       cp: 110,
       def: 70,
@@ -1194,8 +1109,7 @@ export const POKEMONS: Pokemon[] = [
     {
       id: 86,
       name: "Seel",
-      types: "Water",
-      Type2: "",
+      types: ["Water", ""],
       hp: 65,
       cp: 45,
       def: 55,
@@ -1208,8 +1122,7 @@ export const POKEMONS: Pokemon[] = [
     {
       id: 87,
       name: "Dewgong",
-      types: "Water",
-      Type2: "Ice",
+      types: ["Water", "Ice"],
       hp: 90,
       cp: 70,
       def: 80,
@@ -1222,8 +1135,7 @@ export const POKEMONS: Pokemon[] = [
     {
       id: 88,
       name: "Grimer",
-      types: "Poison",
-      Type2: "",
+      types: ["Poison", ""],
       hp: 80,
       cp: 80,
       def: 50,
@@ -1236,8 +1148,7 @@ export const POKEMONS: Pokemon[] = [
     {
       id: 89,
       name: "Muk",
-      types: "Poison",
-      Type2: "",
+      types: ["Poison", ""],
       hp: 105,
       cp: 105,
       def: 75,
@@ -1250,8 +1161,7 @@ export const POKEMONS: Pokemon[] = [
     {
       id: 90,
       name: "Shellder",
-      types: "Water",
-      Type2: "",
+      types: ["Water", ""],
       hp: 30,
       cp: 65,
       def: 100,
@@ -1264,8 +1174,7 @@ export const POKEMONS: Pokemon[] = [
     {
       id: 91,
       name: "Cloyster",
-      types: "Water",
-      Type2: "Ice",
+      types: ["Water", "Ice"],
       hp: 50,
       cp: 95,
       def: 180,
@@ -1278,8 +1187,7 @@ export const POKEMONS: Pokemon[] = [
     {
       id: 92,
       name: "Gastly",
-      types: "Ghost",
-      Type2: "Poison",
+      types: ["Ghost", "Poison"],
       hp: 30,
       cp: 35,
       def: 30,
@@ -1292,8 +1200,7 @@ export const POKEMONS: Pokemon[] = [
     {
       id: 93,
       name: "Haunter",
-      types: "Ghost",
-      Type2: "Poison",
+      types: ["Ghost", "Poison"],
       hp: 45,
       cp: 50,
       def: 45,
@@ -1306,8 +1213,7 @@ export const POKEMONS: Pokemon[] = [
     {
       id: 94,
       name: "Gengar",
-      types: "Ghost",
-      Type2: "Poison",
+      types: ["Ghost", "Poison"],
       hp: 60,
       cp: 65,
       def: 60,
@@ -1320,8 +1226,7 @@ export const POKEMONS: Pokemon[] = [
     {
       id: 95,
       name: "Onix",
-      types: "Rock",
-      Type2: "Ground",
+      types: ["Rock", "Ground"],
       hp: 35,
       cp: 45,
       def: 160,
@@ -1334,8 +1239,7 @@ export const POKEMONS: Pokemon[] = [
     {
       id: 96,
       name: "Drowzee",
-      types: "Psychic",
-      Type2: "",
+      types: ["Psychic", ""],
       hp: 60,
       cp: 48,
       def: 45,
@@ -1348,8 +1252,7 @@ export const POKEMONS: Pokemon[] = [
     {
       id: 97,
       name: "Hypno",
-      types: "Psychic",
-      Type2: "",
+      types: ["Psychic", ""],
       hp: 85,
       cp: 73,
       def: 70,
@@ -1362,8 +1265,7 @@ export const POKEMONS: Pokemon[] = [
     {
       id: 98,
       name: "Krabby",
-      types: "Water",
-      Type2: "",
+      types: ["Water", ""],
       hp: 30,
       cp: 105,
       def: 90,
@@ -1376,8 +1278,7 @@ export const POKEMONS: Pokemon[] = [
     {
       id: 99,
       name: "Kingler",
-      types: "Water",
-      Type2: "",
+      types: ["Water", ""],
       hp: 55,
       cp: 130,
       def: 115,
@@ -1390,8 +1291,7 @@ export const POKEMONS: Pokemon[] = [
     {
       id: 100,
       name: "Voltorb",
-      types: "Electric",
-      Type2: "",
+      types: ["Electric", ""],
       hp: 40,
       cp: 30,
       def: 50,
@@ -1404,8 +1304,7 @@ export const POKEMONS: Pokemon[] = [
     {
       id: 101,
       name: "Electrode",
-      types: "Electric",
-      Type2: "",
+      types: ["Electric", ""],
       hp: 60,
       cp: 50,
       def: 70,
@@ -1418,8 +1317,7 @@ export const POKEMONS: Pokemon[] = [
     {
       id: 102,
       name: "Exeggcute",
-      types: "Grass",
-      Type2: "Psychic",
+      types: ["Grass", "Psychic"],
       hp: 60,
       cp: 40,
       def: 80,
@@ -1432,8 +1330,7 @@ export const POKEMONS: Pokemon[] = [
     {
       id: 103,
       name: "Exeggutor",
-      types: "Grass",
-      Type2: "Psychic",
+      types: ["Grass", "Psychic"],
       hp: 95,
       cp: 95,
       def: 85,
@@ -1446,8 +1343,7 @@ export const POKEMONS: Pokemon[] = [
     {
       id: 104,
       name: "Cubone",
-      types: "Ground",
-      Type2: "",
+      types: ["Ground", ""],
       hp: 50,
       cp: 50,
       def: 95,
@@ -1460,8 +1356,7 @@ export const POKEMONS: Pokemon[] = [
     {
       id: 105,
       name: "Marowak",
-      types: "Ground",
-      Type2: "",
+      types: ["Ground", ""],
       hp: 60,
       cp: 80,
       def: 110,
@@ -1474,8 +1369,7 @@ export const POKEMONS: Pokemon[] = [
     {
       id: 106,
       name: "Hitmonlee",
-      types: "Fighting",
-      Type2: "",
+      types: ["Fighting", ""],
       hp: 50,
       cp: 120,
       def: 53,
@@ -1488,8 +1382,7 @@ export const POKEMONS: Pokemon[] = [
     {
       id: 107,
       name: "Hitmonchan",
-      types: "Fighting",
-      Type2: "",
+      types: ["Fighting", ""],
       hp: 50,
       cp: 105,
       def: 79,
@@ -1502,8 +1395,7 @@ export const POKEMONS: Pokemon[] = [
     {
       id: 108,
       name: "Lickitung",
-      types: "Normal",
-      Type2: "",
+      types: ["Normal", ""],
       hp: 90,
       cp: 55,
       def: 75,
@@ -1516,8 +1408,7 @@ export const POKEMONS: Pokemon[] = [
     {
       id: 109,
       name: "Koffing",
-      types: "Poison",
-      Type2: "",
+      types: ["Poison", ""],
       hp: 40,
       cp: 65,
       def: 95,
@@ -1530,8 +1421,7 @@ export const POKEMONS: Pokemon[] = [
     {
       id: 110,
       name: "Weezing",
-      types: "Poison",
-      Type2: "",
+      types: ["Poison", ""],
       hp: 65,
       cp: 90,
       def: 120,
@@ -1544,8 +1434,7 @@ export const POKEMONS: Pokemon[] = [
     {
       id: 111,
       name: "Rhyhorn",
-      types: "Ground",
-      Type2: "Rock",
+      types: ["Ground", "Rock"],
       hp: 80,
       cp: 85,
       def: 95,
@@ -1558,8 +1447,7 @@ export const POKEMONS: Pokemon[] = [
     {
       id: 112,
       name: "Rhydon",
-      types: "Ground",
-      Type2: "Rock",
+      types: ["Ground", "Rock"],
       hp: 105,
       cp: 130,
       def: 120,
@@ -1572,8 +1460,7 @@ export const POKEMONS: Pokemon[] = [
     {
       id: 113,
       name: "Chansey",
-      types: "Normal",
-      Type2: "",
+      types: ["Normal", ""],
       hp: 250,
       cp: 5,
       def: 5,
@@ -1586,8 +1473,7 @@ export const POKEMONS: Pokemon[] = [
     {
       id: 114,
       name: "Tangela",
-      types: "Grass",
-      Type2: "",
+      types: ["Grass", ""],
       hp: 65,
       cp: 55,
       def: 115,
@@ -1600,8 +1486,7 @@ export const POKEMONS: Pokemon[] = [
     {
       id: 115,
       name: "Kangaskhan",
-      types: "Normal",
-      Type2: "",
+      types: ["Normal", ""],
       hp: 105,
       cp: 95,
       def: 80,
@@ -1614,8 +1499,7 @@ export const POKEMONS: Pokemon[] = [
     {
       id: 116,
       name: "Horsea",
-      types: "Water",
-      Type2: "",
+      types: ["Water", ""],
       hp: 30,
       cp: 40,
       def: 70,
@@ -1628,8 +1512,7 @@ export const POKEMONS: Pokemon[] = [
     {
       id: 117,
       name: "Seadra",
-      types: "Water",
-      Type2: "",
+      types: ["Water", ""],
       hp: 55,
       cp: 65,
       def: 95,
@@ -1642,8 +1525,7 @@ export const POKEMONS: Pokemon[] = [
     {
       id: 118,
       name: "Goldeen",
-      types: "Water",
-      Type2: "",
+      types: ["Water", ""],
       hp: 45,
       cp: 67,
       def: 60,
@@ -1656,8 +1538,7 @@ export const POKEMONS: Pokemon[] = [
     {
       id: 119,
       name: "Seaking",
-      types: "Water",
-      Type2: "",
+      types: ["Water", ""],
       hp: 80,
       cp: 92,
       def: 65,
@@ -1670,8 +1551,7 @@ export const POKEMONS: Pokemon[] = [
     {
       id: 120,
       name: "Staryu",
-      types: "Water",
-      Type2: "",
+      types: ["Water", ""],
       hp: 30,
       cp: 45,
       def: 55,
@@ -1684,8 +1564,7 @@ export const POKEMONS: Pokemon[] = [
     {
       id: 121,
       name: "Starmie",
-      types: "Water",
-      Type2: "Psychic",
+      types: ["Water", "Psychic"],
       hp: 60,
       cp: 75,
       def: 85,
@@ -1698,8 +1577,7 @@ export const POKEMONS: Pokemon[] = [
     {
       id: 122,
       name: "Mr. Mime",
-      types: "Psychic",
-      Type2: "",
+      types: ["Psychic", ""],
       hp: 40,
       cp: 45,
       def: 65,
@@ -1712,8 +1590,7 @@ export const POKEMONS: Pokemon[] = [
     {
       id: 123,
       name: "Scyther",
-      types: "Bug",
-      Type2: "Flying",
+      types: ["Bug", "Flying"],
       hp: 70,
       cp: 110,
       def: 80,
@@ -1726,8 +1603,7 @@ export const POKEMONS: Pokemon[] = [
     {
       id: 124,
       name: "Jynx",
-      types: "Ice",
-      Type2: "Psychic",
+      types: ["Ice", "Psychic"],
       hp: 65,
       cp: 50,
       def: 35,
@@ -1740,8 +1616,7 @@ export const POKEMONS: Pokemon[] = [
     {
       id: 125,
       name: "Electabuzz",
-      types: "Electric",
-      Type2: "",
+      types: ["Electric", ""],
       hp: 65,
       cp: 83,
       def: 57,
@@ -1754,8 +1629,7 @@ export const POKEMONS: Pokemon[] = [
     {
       id: 126,
       name: "Magmar",
-      types: "Fire",
-      Type2: "",
+      types: ["Fire", ""],
       hp: 65,
       cp: 95,
       def: 57,
@@ -1768,8 +1642,7 @@ export const POKEMONS: Pokemon[] = [
     {
       id: 127,
       name: "Pinsir",
-      types: "Bug",
-      Type2: "",
+      types: ["Bug", ""],
       hp: 65,
       cp: 125,
       def: 100,
@@ -1782,8 +1655,7 @@ export const POKEMONS: Pokemon[] = [
     {
       id: 128,
       name: "Tauros",
-      types: "Normal",
-      Type2: "",
+      types: ["Normal", ""],
       hp: 75,
       cp: 100,
       def: 95,
@@ -1796,8 +1668,7 @@ export const POKEMONS: Pokemon[] = [
     {
       id: 129,
       name: "Magikarp",
-      types: "Water",
-      Type2: "",
+      types: ["Water", ""],
       hp: 20,
       cp: 10,
       def: 55,
@@ -1810,8 +1681,7 @@ export const POKEMONS: Pokemon[] = [
     {
       id: 130,
       name: "Gyarados",
-      types: "Water",
-      Type2: "Flying",
+      types: ["Water", "Flying"],
       hp: 95,
       cp: 125,
       def: 79,
@@ -1824,8 +1694,7 @@ export const POKEMONS: Pokemon[] = [
     {
       id: 131,
       name: "Lapras",
-      types: "Water",
-      Type2: "Ice",
+      types: ["Water", ""],
       hp: 130,
       cp: 85,
       def: 80,
@@ -1838,8 +1707,7 @@ export const POKEMONS: Pokemon[] = [
     {
       id: 132,
       name: "Ditto",
-      types: "Normal",
-      Type2: "",
+      types: ["Normal", ""],
       hp: 48,
       cp: 48,
       def: 48,
@@ -1852,8 +1720,7 @@ export const POKEMONS: Pokemon[] = [
     {
       id: 133,
       name: "Eevee",
-      types: "Normal",
-      Type2: "",
+      types: ["Normal", ""],
       hp: 55,
       cp: 55,
       def: 50,
@@ -1866,8 +1733,7 @@ export const POKEMONS: Pokemon[] = [
     {
       id: 134,
       name: "Vaporeon",
-      types: "Water",
-      Type2: "",
+      types: ["Water", ""],
       hp: 130,
       cp: 65,
       def: 60,
@@ -1880,8 +1746,7 @@ export const POKEMONS: Pokemon[] = [
     {
       id: 135,
       name: "Jolteon",
-      types: "Electric",
-      Type2: "",
+      types: ["Electric", ""],
       hp: 65,
       cp: 65,
       def: 60,
@@ -1894,8 +1759,7 @@ export const POKEMONS: Pokemon[] = [
     {
       id: 136,
       name: "Flareon",
-      types: "Fire",
-      Type2: "",
+      types: ["Fire", ""],
       hp: 65,
       cp: 130,
       def: 60,
@@ -1908,8 +1772,7 @@ export const POKEMONS: Pokemon[] = [
     {
       id: 137,
       name: "Porygon",
-      types: "Normal",
-      Type2: "",
+      types: ["Normal", ""],
       hp: 65,
       cp: 60,
       def: 70,
@@ -1922,8 +1785,7 @@ export const POKEMONS: Pokemon[] = [
     {
       id: 138,
       name: "Omanyte",
-      types: "Rock",
-      Type2: "Water",
+      types: ["Rock", "Water"],
       hp: 35,
       cp: 40,
       def: 100,
@@ -1936,8 +1798,7 @@ export const POKEMONS: Pokemon[] = [
     {
       id: 139,
       name: "Omastar",
-      types: "Rock",
-      Type2: "Water",
+      types: ["Rock", "Water"],
       hp: 70,
       cp: 60,
       def: 125,
@@ -1950,8 +1811,7 @@ export const POKEMONS: Pokemon[] = [
     {
       id: 140,
       name: "Kabuto",
-      types: "Rock",
-      Type2: "Water",
+      types: ["Rock", "Water"],
       hp: 30,
       cp: 80,
       def: 90,
@@ -1964,8 +1824,7 @@ export const POKEMONS: Pokemon[] = [
     {
       id: 141,
       name: "Kabutops",
-      types: "Rock",
-      Type2: "Water",
+      types: ["Rock", "Water"],
       hp: 60,
       cp: 115,
       def: 105,
@@ -1978,8 +1837,7 @@ export const POKEMONS: Pokemon[] = [
     {
       id: 142,
       name: "Aerodactyl",
-      types: "Rock",
-      Type2: "Flying",
+      types: ["Rock", "Flying"],
       hp: 80,
       cp: 105,
       def: 65,
@@ -1992,8 +1850,7 @@ export const POKEMONS: Pokemon[] = [
     {
       id: 143,
       name: "Snorlax",
-      types: "Normal",
-      Type2: "",
+      types: ["Normal", ""],
       hp: 160,
       cp: 110,
       def: 65,
@@ -2006,8 +1863,7 @@ export const POKEMONS: Pokemon[] = [
     {
       id: 144,
       name: "Articuno",
-      types: "Ice",
-      Type2: "Flying",
+      types: ["Ice", "Flying"],
       hp: 90,
       cp: 85,
       def: 100,
@@ -2020,8 +1876,7 @@ export const POKEMONS: Pokemon[] = [
     {
       id: 145,
       name: "Zapdos",
-      types: "Electric",
-      Type2: "Flying",
+      types: ["Electric", "Flying"],
       hp: 90,
       cp: 90,
       def: 85,
@@ -2034,8 +1889,7 @@ export const POKEMONS: Pokemon[] = [
     {
       id: 146,
       name: "Moltres",
-      types: "Fire",
-      Type2: "Flying",
+      types: ["Fire", "Flying"],
       hp: 90,
       cp: 100,
       def: 90,
@@ -2048,8 +1902,7 @@ export const POKEMONS: Pokemon[] = [
     {
       id: 147,
       name: "Dratini",
-      types: "Dragon",
-      Type2: "",
+      types: ["Dragon", ""],
       hp: 41,
       cp: 64,
       def: 45,
@@ -2062,8 +1915,7 @@ export const POKEMONS: Pokemon[] = [
     {
       id: 148,
       name: "Dragonair",
-      types: "Dragon",
-      Type2: "",
+      types: ["Dragon", ""],
       hp: 61,
       cp: 84,
       def: 65,
@@ -2076,8 +1928,7 @@ export const POKEMONS: Pokemon[] = [
     {
       id: 149,
       name: "Dragonite",
-      types: "Dragon",
-      Type2: "Flying",
+      types: ["Dragon", "Flying"],
       hp: 91,
       cp: 134,
       def: 95,
@@ -2090,8 +1941,7 @@ export const POKEMONS: Pokemon[] = [
     {
       id: 150,
       name: "Mewtwo",
-      types: "Psychic",
-      Type2: "",
+      types: ["Psychic", ""],
       hp: 106,
       cp: 110,
       def: 90,
@@ -2104,8 +1954,7 @@ export const POKEMONS: Pokemon[] = [
     {
       id: 151,
       name: "Mew",
-      types: "Psychic",
-      Type2: "",
+      types: ["Psychic", ""],
       hp: 100,
       cp: 100,
       def: 100,
