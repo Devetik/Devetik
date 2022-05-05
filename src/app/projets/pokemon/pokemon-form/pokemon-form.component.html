@@ -4,7 +4,7 @@
       <div class="card-panel mx-3">
 
         <!-- Pokemon name -->
-        <div class="form-group">
+        <div class="form-group text-white">
           <label for="name">Nom</label>
           <input type="text" class="form-control" id="name"
                   required
@@ -19,7 +19,7 @@
         </div>
 
         <!-- Pokemon hp -->
-        <div class="form-group">
+        <div class="form-group text-white">
           <label for="hp">Point de vie</label>
           <input type="number" class="form-control" id="hp"
                   required
@@ -33,16 +33,16 @@
         </div>
 
         <!-- Pokemon cp -->
-        <div class="form-group">
+        <div class="form-group text-white">
           <label for="cp">Dégâts</label>
           <input type="number" class="form-control" id="cp"
                   required
-                  pattern="^[0-9]{1,2}$"
+                  pattern="^[0-9]{1,3}$"
                  [(ngModel)]="pokemon.cp" name="cp"
                  #cp="ngModel">
            <div [hidden]="cp.valid || cp.pristine"
                  class="card-panel red accent-1">
-                 Les dégâts du pokémon sont compris entre 0 et 99.
+                 Les dégâts du pokémon sont compris entre 0 et 999.
            </div>
         </div>
 
