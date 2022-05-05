@@ -1,1 +1,11 @@
-<p>edit-pokemon works!</p>
+<div class="contener w-50 mx-auto">
+  <div class="text-center w-100">
+    <div class="card bg-dark m-3">
+      <h2 class="center text-white fs-1">Editer {{ pokemon?.name }}</h2>
+      <p *ngIf="pokemon" class="center">
+        <img  [src]="pokemon?.PNG">
+      </p>
+      <app-pokemon-form *ngIf="pokemon" [pokemon]="pokemon"></app-pokemon-form>
+    </div>
+  </div>
+</div>

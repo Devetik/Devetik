@@ -6,7 +6,7 @@ import { Pokemon } from '../pokemon';
 @Component({
   selector: 'app-edit-pokemon',
   templateUrl: './edit-pokemon.component.html',
-  styleUrls: ['./edit-pokemon.component.scss']
+  styleUrls: ['../detail-pokemon/detail-pokemon.component.scss', './edit-pokemon.component.scss']
 })
 export class EditPokemonComponent implements OnInit {
 
