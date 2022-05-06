@@ -11,6 +11,7 @@ import { QuiSuisJeComponent } from './qui-suis-je/qui-suis-je.component';
 import { HttpClientModule } from '@angular/common/http';
 import { PokemonModule } from './projets/pokemon/pokemon.module';
 import { FormsModule } from '@angular/forms';
+import { FooterComponent } from './footer/footer.component';
 
 
 
@@ -23,6 +24,7 @@ import { FormsModule } from '@angular/forms';
     YouloopComponent,
     Error404Component,
     QuiSuisJeComponent,
+    FooterComponent,
   ],
   imports: [
     BrowserModule,
