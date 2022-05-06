@@ -6,7 +6,7 @@
       <div class="card-image ms-5">
         <img class="w-25 " src="{{pokemon.GIF}}">
       </div>
-      <div class="card-stacked">
+      <div class="card-stacked border border-3">
         <div class="card-content">
           <table class="table table-striped mb-0">
             <tbody>
@@ -23,8 +23,16 @@
                 <td><strong>{{ pokemon.cp }}</strong></td>
               </tr>
               <tr>
+                <td>Défense</td>
+                <td><strong>{{ pokemon.def }}</strong></td>
+              </tr>
+              <tr>
                 <td>Vitesse</td>
                 <td><strong>{{ pokemon.Speed }}</strong></td>
+              </tr>
+              <tr>
+                <td>Special</td>
+                <td><strong>{{ pokemon.Special }}</strong></td>
               </tr>
               <tr>
                 <td>Types</td>
@@ -45,8 +53,10 @@
           </table>
       </div>
     </div>
-    <button (click)="goBack()" class="btn btn-primary">Retour</button>
-    <button (click)="goToEditPokemon(pokemon)">Editer</button>
+    <div class="row mt-3">
+      <button (click)="goBack()" class="btn btn-primary col-7 m-auto">Retour</button>
+      <button (click)="goToEditPokemon(pokemon)" class="btn btn-warning col-3 m-auto">Editer</button>
+    </div>
   </div>
 </div>
 <h4 *ngIf='!pokemon' class="center">Aucun pokémon à afficher !</h4>
