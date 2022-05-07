@@ -12,6 +12,10 @@ import { HttpClientModule } from '@angular/common/http';
 import { PokemonModule } from './projets/pokemon/pokemon.module';
 import { FormsModule } from '@angular/forms';
 import { FooterComponent } from './footer/footer.component';
+import { CFFComponent } from './projets/cff/cff.component';
+import { HttpClientInMemoryWebApiModule } from 'angular-in-memory-web-api';
+import { InMemoryDataService } from './in-memory-data.service';
+
 
 
 
@@ -25,10 +29,13 @@ import { FooterComponent } from './footer/footer.component';
     Error404Component,
     QuiSuisJeComponent,
     FooterComponent,
+    CFFComponent,
   ],
   imports: [
     BrowserModule,
     FormsModule,
+    HttpClientModule,
+    HttpClientInMemoryWebApiModule.forRoot(InMemoryDataService, { dataEncapsulation: false}),
     PokemonModule,
     AppRoutingModule,
     HttpClientModule,

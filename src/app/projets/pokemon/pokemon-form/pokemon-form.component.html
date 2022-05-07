@@ -92,13 +92,13 @@
           <label class="p-2" for="name">Description</label>
           <input type="text" class="form-control" id="Description"
                   required
-                  pattern="^[a-zA-Z0-9àéèç-.,]{1,25}$"
+                  pattern="^[a-zA-Z 0-9àéèç.,_-]{1,2500}$"
                  [(ngModel)]="pokemon.Description" name="Description"
                  #Description="ngModel">
 
           <div [hidden]="Description.valid || Description.pristine"
                 class="card-panel red accent-1">
-                Le nom du pokémon est requis (1-25).
+                Le nom du pokémon est requis (1-250).
           </div>
         </div>
 

@@ -10,8 +10,8 @@ export const PROJETS: projet[] = [
     {
       title: "Game of Life",
       image: "https://miro.medium.com/max/1400/1*KMsAE8WmWsPJtxkRaov4Ow.gif",
-      lien: "/projets/gameOfLife",
-      description: "The game of life from John Conway's"
+      lien: "/projets/game-of-life",
+      description: "The John Conway's game of life"
     },
     {
       title: "Youloop",
@@ -28,7 +28,7 @@ export const PROJETS: projet[] = [
     {
       title: "Horaires CFF",
       image: "https://www.commune-cransmontana.ch/media/image/0/big_16_9/logo-sbb-cff-ffs_596x596px_web.png",
-      lien: "/projets/pokemon",
+      lien: "/projets/CFF",
       description: "Projet REST avec les horaires des CFF"
     },
     {

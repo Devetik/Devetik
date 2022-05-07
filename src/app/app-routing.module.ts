@@ -1,3 +1,4 @@
+import { CFFComponent } from './projets/cff/cff.component';
 import { QuiSuisJeComponent } from './qui-suis-je/qui-suis-je.component';
 import { YouloopComponent } from './projets/youloop/youloop.component';
 import { Error404Component } from './error404/error404.component';
@@ -12,6 +13,7 @@ const routes: Routes = [
   { path: "projets", component: ProjetsComponent},
   { path: "quiSuisJe", component: QuiSuisJeComponent},
   { path: "projets/youloop", component: YouloopComponent},
+  { path: "projets/CFF", component: CFFComponent},
   // { path: "projets/pokemon", component: PokemonComponent},
   // { path: "projets/pokemon/:Id", component: DetailPokemonComponent},
   { path: "", component: HomeComponent},
