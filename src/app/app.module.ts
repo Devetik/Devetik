@@ -15,6 +15,7 @@ import { FooterComponent } from './footer/footer.component';
 import { CFFComponent } from './projets/cff/cff.component';
 import { HttpClientInMemoryWebApiModule } from 'angular-in-memory-web-api';
 import { InMemoryDataService } from './in-memory-data.service';
+import { HashLocationStrategy, LocationStrategy } from '@angular/common';
 
 
 
@@ -40,7 +41,9 @@ import { InMemoryDataService } from './in-memory-data.service';
     AppRoutingModule,
     HttpClientModule,
   ],
-  providers: [],
+  providers: [
+    {provide: LocationStrategy, useClass: HashLocationStrategy}
+  ],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

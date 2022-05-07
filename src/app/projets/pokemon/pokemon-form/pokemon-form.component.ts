@@ -49,7 +49,6 @@ export class PokemonFormComponent implements OnInit {
       return false;
     }
 
-
     return true;
   }
 
