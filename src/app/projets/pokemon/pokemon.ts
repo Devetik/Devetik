@@ -13,7 +13,7 @@ export class Pokemon {
   Description: string;
 
   constructor(
-    name: string = 'Entrer un nom',
+    name: string = '',
     hp: number = 10,
     cp: number = 10,
     def: number = 10,

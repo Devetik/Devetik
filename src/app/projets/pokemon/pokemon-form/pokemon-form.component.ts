@@ -1,3 +1,4 @@
+import { POKEMONS } from './../mock-pokemon-list';
 import { ThisReceiver } from '@angular/compiler';
 import { Component, Input, OnInit } from '@angular/core';
 import { Router } from '@angular/router';
@@ -18,9 +19,9 @@ export class PokemonFormComponent implements OnInit {
   isAddForm!: boolean;
 
 
-  zero = Math.floor(Math.random() * (905 - 1 + 1)) + 1;
+  //zero = Math.floor(Math.random() * (905 - 1 + 1)) + 1;
 
-  alea = (('0' + this.zero).slice(-3)) + ".png";
+  alea = (('0' + (Math.floor(Math.random() * (905 - 1 + 1)) + 1)).slice(-3)) + ".png";
 
   constructor(
     private pokemonService: PokemonService,
@@ -30,6 +31,20 @@ export class PokemonFormComponent implements OnInit {
   ngOnInit() {
     this.types = this.pokemonService.getPokemonTypeList();
     this.isAddForm = this.router.url.includes('add');
+    if(this.isAddForm){
+      const nbrPKM: number = POKEMONS.length;
+      const nbrPKM2 = POKEMONS[nbrPKM - 1].id;
+      this.pokemon.id = nbrPKM2 + 1;
+      //this.pokemon.id = +POKEMONS[POKEMONS.length + 1 ];
+      //console.log(this.pokemon.id);
+      console.log(nbrPKM2);
+      this.alea = (('0' + (Math.floor(Math.random() * (905 - 1 + 1)) + 1)).slice(-3)) + ".png";
+      if(this.alea.length < 7) {
+        //this.zero = Math.floor(Math.random() * (905 - 1 + 1)) + 1;
+        this.alea = (('0' + (Math.floor(Math.random() * (905 - 1 + 1)) + 1)).slice(-3)) + ".png";
+      }
+      this.pokemon.PNGHD = 'https://assets.pokemon.com/assets/cms2/img/pokedex/full/' + this.alea;
+    }
 
   }
 
@@ -49,22 +64,23 @@ export class PokemonFormComponent implements OnInit {
 
   }
   randomPNG(){
-    this.zero = Math.floor(Math.random() * (905 - 1 + 1)) + 1;
-    this.alea = (('0' + this.zero).slice(-3)) + ".png";
+    //this.zero = Math.floor(Math.random() * (905 - 1 + 1)) + 1;
+    this.alea = (('0' + (Math.floor(Math.random() * (905 - 1 + 1)) + 1)).slice(-3)) + ".png";
     if(this.alea.length < 7) {
-      this.zero = Math.floor(Math.random() * (905 - 1 + 1)) + 1;
-      this.alea = (('0' + this.zero).slice(-3)) + ".png";
+      //this.zero = Math.floor(Math.random() * (905 - 1 + 1)) + 1;
+      this.alea = (('0' + (Math.floor(Math.random() * (905 - 1 + 1)) + 1)).slice(-3)) + ".png";
     }
+    this.pokemon.PNGHD = 'https://assets.pokemon.com/assets/cms2/img/pokedex/full/' + this.alea;
     console.log(this.alea);
     console.log(this.alea.length);
   }
 
-  isTypesValid(type: string): boolean{
-    if(this.pokemon.types.length == 1 && this.hasType(type)){
+  isTypesValid(types: string): boolean{
+    if(this.pokemon.types.length == 1 && this.hasType(types)){
       return false;
     }
 
-    if(this.pokemon.types.length > 2 && !this.hasType(type)) {
+    if(this.pokemon.types.length >= 2 && !this.hasType(types)) {
       return false;
     }
 
@@ -74,14 +90,16 @@ export class PokemonFormComponent implements OnInit {
   onSubmit(){
 
     if(this.isAddForm) {
-      this.pokemon.PNGHD = this.pokemon.PNGHD + this.alea;
+
       this.pokemon.PNG = this.pokemon.PNGHD;
       this.pokemon.GIF = this.pokemon.PNGHD;
+      //this.pokemon.id = 188;
+
       this.pokemonService.addPokemon(this.pokemon)
-      .subscribe((pokemon: Pokemon) => this.router.navigate(['projets/pokemon', pokemon.id]));
+      .subscribe((pokemon: Pokemon) => this.router.navigate(['/projets/pokemon', pokemon.id]));
     } else {
       this.pokemonService.updatePokemon(this.pokemon)
-      .subscribe(() => this.router.navigate(['projets/pokemon', this.pokemon.id]));
+      .subscribe(() => this.router.navigate(['/projets/pokemon', this.pokemon.id]));
     }
     this.pokemonService.updatePokemon(this.pokemon)
     .subscribe(() => this.router.navigate(['projets/pokemon', this.pokemon.id]));

@@ -1,3 +1,4 @@
+
 <div class="row">
   <div class="col-12 text-center offset-m3">
     <div class="card border border-0">
@@ -8,7 +9,7 @@
           <div class="collection center">
             <div *ngFor="let pokemon of pokemons$ | async"
             (click)="goToDetail(pokemon)"
-            class="collection-item border border-2 w-25 m-auto my-2">{{ pokemon.name }}</div>
+            class="collection-item border border-2 w-25 m-auto my-2 fw-bold">{{ pokemon.name }}<img src="{{pokemon.PNGHD}}" class="cropped2"></div>
           </div>
         </div>
       </div>
