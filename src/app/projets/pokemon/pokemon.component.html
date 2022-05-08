@@ -3,6 +3,7 @@
 <h1 class="m-5 text-center">Pokemon</h1>
 <div class="container has-bg-img">
   <div class="row">
+    <app-search-pokemon></app-search-pokemon>
     <div *ngFor="let pokemon of pokemonList" class="col-12 col-md-6 col-lg-4 m-auto .bg-img">
 
       <div (click)="goToPokemon(pokemon)" class="m-2 card bg-light  rounded-5 shadow" pkmBorderCard="">
