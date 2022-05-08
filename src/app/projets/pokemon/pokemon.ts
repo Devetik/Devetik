@@ -20,7 +20,7 @@ export class Pokemon {
     Speed: number = 10,
     Special: number = 10,
     GIF: string = '',
-    PNG: string = 'https://assets.pokemon.com/assets/cms2/img/pokedex/full/',
+    PNG: string = '',
     PNGHD: string = 'https://assets.pokemon.com/assets/cms2/img/pokedex/full/',
     Description: string = 'Introduir une description',
     types: string[] = ['Normal']

@@ -1,3 +1,4 @@
+import { ThisReceiver } from '@angular/compiler';
 import { Component, Input, OnInit } from '@angular/core';
 import { Router } from '@angular/router';
 import { Pokemon } from '../pokemon';
@@ -16,7 +17,8 @@ export class PokemonFormComponent implements OnInit {
   types: string[] = [];
   isAddForm!: boolean;
 
-  zero = Math.floor(Math.random() * (152 - 1 + 1)) + 1;
+
+  zero = Math.floor(Math.random() * (905 - 1 + 1)) + 1;
 
   alea = (('0' + this.zero).slice(-3)) + ".png";
 
@@ -70,8 +72,11 @@ export class PokemonFormComponent implements OnInit {
   }
 
   onSubmit(){
-    this.pokemon.PNG = this.pokemon.PNG + this.alea;
+
     if(this.isAddForm) {
+      this.pokemon.PNGHD = this.pokemon.PNGHD + this.alea;
+      this.pokemon.PNG = this.pokemon.PNGHD;
+      this.pokemon.GIF = this.pokemon.PNGHD;
       this.pokemonService.addPokemon(this.pokemon)
       .subscribe((pokemon: Pokemon) => this.router.navigate(['projets/pokemon', pokemon.id]));
     } else {

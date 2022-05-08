@@ -1,17 +1,19 @@
 <div class="row">
-  <div class="col-12 m6 offset-m3">
-    <div class="card">
-      <div class="card-content">
+  <div class="col-12 text-center offset-m3">
+    <div class="card border border-0">
+      <div class="card-content p-3">
         <div class="input-field">
-          <input #searchBox (keyup)="search(searchBox.value)"
-          placeholder="Rechercher un pokemon">
-          <div class="collection">
-            <a *ngFor="let pokemon of pokemons$ | async"
+          <input #searchBox (keyup)="search(searchBox.value)" class="fs-3 w-50 text-center"
+          placeholder="🔍 Rechercher un pokemon">
+          <div class="collection center">
+            <div *ngFor="let pokemon of pokemons$ | async"
             (click)="goToDetail(pokemon)"
-            class="collection-item">{{ pokemon.name }}</a>
+            class="collection-item border border-2 w-25 m-auto my-2">{{ pokemon.name }}</div>
           </div>
         </div>
       </div>
     </div>
   </div>
 </div>
+
+

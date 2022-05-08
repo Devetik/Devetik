@@ -23,17 +23,17 @@
           </div>
         </div>
 
-        <!-- Pokemon PNG -->
+        <!-- Pokemon PNGHD -->
         <div *ngIf="isAddForm" class="form-group text-white col-md-12 col-lg-4 mt-2">
           <!-- <img src="{{pokemon.PNG}}{{alea}}"> -->
-          <label class="p-2" for="PNG">Image</label>
-          <input type="url" class="form-control" id="PNG"
+          <label class="p-2" for="PNGHD">Image</label>
+          <input type="url" class="form-control" id="PNGHD"
                   required
-                  [(ngModel)]="pokemon.PNG + alea" name="PNG"
-                  #PNG="ngModel"
+                  [(ngModel)]="pokemon.PNGHD" name="PNGHD"
+                  #PNGHD="ngModel"
                   pattern="^[a-zA-Z 0-9àéèç.:,_/\-]{1,2500}$">
 
-          <div [hidden]="PNG.valid || PNG.pristine"
+          <div [hidden]="PNGHD.valid || PNGHD.pristine"
                 class="card-panel red accent-1">
                 L'image du pokémon est requise.
           </div>
