@@ -16,7 +16,7 @@ export class HeaderComponent implements OnInit {
 
   ngOnInit(): void {
     //affichage de la liste des projets
-    console.table(this.listeProjets);
+    //console.table(this.listeProjets);
   }
 
   selectProjet(projet: projet) {

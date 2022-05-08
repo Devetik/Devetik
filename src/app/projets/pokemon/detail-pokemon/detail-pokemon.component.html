@@ -4,7 +4,8 @@
     <h2 style="font-size: 7vw;" class="header text-center mb-5">{{pokemon.name}}</h2>
     <div class="card horizontal hoverable border-0">
       <div class="card-image ms-5">
-        <img class="w-25 " src="{{pokemon.GIF}}">
+        <img *ngIf="pokemon.GIF" class="w-25 " src="{{pokemon.GIF}}">
+        <img *ngIf="!pokemon.GIF" class="w-25" src="{{pokemon.PNG}}">
       </div>
       <div class="card-stacked border border-3">
         <div class="card-content">
@@ -54,8 +55,9 @@
       </div>
     </div>
     <div class="row mt-3">
-      <button (click)="goBack()" class="btn btn-primary col-7 m-auto">Retour</button>
+      <button (click)="goBack()" class="btn btn-primary col-6 m-auto">Retour</button>
       <button (click)="goToEditPokemon(pokemon)" class="btn btn-warning col-3 m-auto">Editer</button>
+      <button (click)="deletePokemon(pokemon)" class="btn btn-danger col-2">Supprimer</button>
     </div>
   </div>
 </div>

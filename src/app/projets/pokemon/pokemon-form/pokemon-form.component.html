@@ -3,18 +3,39 @@
     <div class="">
       <div class="card-panel mx-3 row">
 
+        <div *ngIf="isAddForm" class="card m-auto col-9">
+          <img  src="{{pokemon.PNG}}{{alea}}">
+          <button type="button" (click)="randomPNG()" class="btn btn-warning m-2">Aléatoire</button>
+        </div>
+
         <!-- Pokemon name -->
         <div class="form-group text-white col-md-12 col-lg-4 mt-2">
           <label class="p-2" for="name">Nom</label>
           <input type="text" class="form-control" id="name"
                   required
-                  pattern="^[a-zA-Z0-9àéèç]{1,25}$"
+                  pattern="^[a-zA-Z 0-9àéèç]{1,25}$"
                  [(ngModel)]="pokemon.name" name="name"
                  #name="ngModel">
 
           <div [hidden]="name.valid || name.pristine"
                 class="card-panel red accent-1">
                 Le nom du pokémon est requis (1-25).
+          </div>
+        </div>
+
+        <!-- Pokemon PNG -->
+        <div *ngIf="isAddForm" class="form-group text-white col-md-12 col-lg-4 mt-2">
+          <!-- <img src="{{pokemon.PNG}}{{alea}}"> -->
+          <label class="p-2" for="PNG">Image</label>
+          <input type="url" class="form-control" id="PNG"
+                  required
+                  [(ngModel)]="pokemon.PNG + alea" name="PNG"
+                  #PNG="ngModel"
+                  pattern="^[a-zA-Z 0-9àéèç.:,_/\-]{1,2500}$">
+
+          <div [hidden]="PNG.valid || PNG.pristine"
+                class="card-panel red accent-1">
+                L'image du pokémon est requise.
           </div>
         </div>
 

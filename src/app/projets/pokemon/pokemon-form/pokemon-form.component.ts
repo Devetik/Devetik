@@ -14,6 +14,11 @@ export class PokemonFormComponent implements OnInit {
   pokemon!: Pokemon;
 
   types: string[] = [];
+  isAddForm!: boolean;
+
+  zero = Math.floor(Math.random() * (152 - 1 + 1)) + 1;
+
+  alea = (('0' + this.zero).slice(-3)) + ".png";
 
   constructor(
     private pokemonService: PokemonService,
@@ -22,6 +27,8 @@ export class PokemonFormComponent implements OnInit {
 
   ngOnInit() {
     this.types = this.pokemonService.getPokemonTypeList();
+    this.isAddForm = this.router.url.includes('add');
+
   }
 
   hasType(type: string): boolean{
@@ -39,6 +46,11 @@ export class PokemonFormComponent implements OnInit {
     }
 
   }
+  randomPNG(){
+    this.zero = Math.floor(Math.random() * (152 - 1 + 1)) + 1;
+
+    this.alea = (('0' + this.zero).slice(-3)) + ".png";
+  }
 
   isTypesValid(type: string): boolean{
     if(this.pokemon.types.length == 1 && this.hasType(type)){
@@ -53,6 +65,14 @@ export class PokemonFormComponent implements OnInit {
   }
 
   onSubmit(){
+    this.pokemon.PNG = this.pokemon.PNG + this.alea;
+    if(this.isAddForm) {
+      this.pokemonService.addPokemon(this.pokemon)
+      .subscribe((pokemon: Pokemon) => this.router.navigate(['projets/pokemon', pokemon.id]));
+    } else {
+      this.pokemonService.updatePokemon(this.pokemon)
+      .subscribe(() => this.router.navigate(['projets/pokemon', this.pokemon.id]));
+    }
     this.pokemonService.updatePokemon(this.pokemon)
     .subscribe(() => this.router.navigate(['projets/pokemon', this.pokemon.id]));
     //this.router.navigate(['/projets/pokemon', this.pokemon.id]);

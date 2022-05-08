@@ -24,7 +24,11 @@ export class DetailPokemonComponent implements OnInit {
     if(pokemonId){
       this.pokemonService.getPokemonById(+pokemonId).subscribe(pokemon => this.pokemon = pokemon);
     }
+  }
 
+  deletePokemon(pokemon: Pokemon) {
+    this.pokemonService.deletePokemonById(pokemon.id)
+    .subscribe(() => this.goBack());
   }
 
   goBack(){

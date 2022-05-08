@@ -6,6 +6,7 @@ import { HttpClient } from '@angular/common/http';
 import { PokemonTypeColorPipe } from './pokemon-type-color.pipe';
 import { ActivatedRoute, Router } from '@angular/router';
 import { PokemonModule } from './pokemon.module';
+import { PokemonService } from './pokemon.service';
 
 
 @Component({
@@ -15,16 +16,16 @@ import { PokemonModule } from './pokemon.module';
 })
 
 export class PokemonComponent implements OnInit {
-  pokemonList: Pokemon[] = POKEMONS;
+  pokemonList: Pokemon[] = [];
 
-  constructor(private router: Router) {}
+  constructor(private router: Router, private pokemonService: PokemonService) {}
 
   goToPokemon(pokemon: Pokemon){
     this.router.navigate(['projets/pokemon', pokemon.id]);
   }
 
   ngOnInit() {
-
+    this.pokemonService.getPokemonList().subscribe(pokemonList => this.pokemonList = pokemonList);
   }
 
 

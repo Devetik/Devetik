@@ -1,6 +1,19 @@
 import { Pokemon } from "./pokemon";
 
 export const POKEMONS: Pokemon[] = [
+  {
+    id: 153,
+    name: "Bulbasaur",
+    types: ["Grass", "Poison"],
+    hp: 45,
+    cp: 49,
+    def: 49,
+    Speed: 45,
+    Special: 65,
+    GIF: "https://www.picng.com/upload/pokemon/png_pokemon_43606.png",
+    PNG: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/001.png",
+    Description: "A strange seed was planted on its back at birth. The plant sprouts and grows with this Pokemon."
+  },
     {
       id: 1,
       name: "Bulbasaur",
