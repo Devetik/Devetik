@@ -47,9 +47,14 @@ export class PokemonFormComponent implements OnInit {
 
   }
   randomPNG(){
-    this.zero = Math.floor(Math.random() * (152 - 1 + 1)) + 1;
-
+    this.zero = Math.floor(Math.random() * (905 - 1 + 1)) + 1;
     this.alea = (('0' + this.zero).slice(-3)) + ".png";
+    if(this.alea.length < 7) {
+      this.zero = Math.floor(Math.random() * (905 - 1 + 1)) + 1;
+      this.alea = (('0' + this.zero).slice(-3)) + ".png";
+    }
+    console.log(this.alea);
+    console.log(this.alea.length);
   }
 
   isTypesValid(type: string): boolean{
