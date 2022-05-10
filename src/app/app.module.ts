@@ -16,6 +16,7 @@ import { CFFComponent } from './projets/cff/cff.component';
 import { HttpClientInMemoryWebApiModule } from 'angular-in-memory-web-api';
 import { InMemoryDataService } from './in-memory-data.service';
 import { HashLocationStrategy, LocationStrategy } from '@angular/common';
+import { LoginComponent } from './login/login.component';
 
 
 
@@ -31,6 +32,7 @@ import { HashLocationStrategy, LocationStrategy } from '@angular/common';
     QuiSuisJeComponent,
     FooterComponent,
     CFFComponent,
+    LoginComponent,
   ],
   imports: [
     BrowserModule,

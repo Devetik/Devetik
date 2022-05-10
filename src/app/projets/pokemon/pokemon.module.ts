@@ -1,3 +1,4 @@
+import { AuthGuard } from './../../auth.guard';
 import { PokemonFormComponent } from './pokemon-form/pokemon-form.component';
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
@@ -16,7 +17,7 @@ import { SearchPokemonComponent } from './search-pokemon/search-pokemon.componen
 
 
 const pokemonRoutes: Routes = [
-  { path: "projets/edit/pokemon/:id", component: EditPokemonComponent},
+  { path: "projets/edit/pokemon/:id", component: EditPokemonComponent, canActivate: [AuthGuard]},
   { path: "projets/pokemon/add", component: AddPokemonComponent},
   { path: "projets/pokemon", component: PokemonComponent},
   { path: "projets/pokemon/:id", component: DetailPokemonComponent}

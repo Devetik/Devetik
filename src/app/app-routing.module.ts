@@ -1,3 +1,4 @@
+import { LoginComponent } from './login/login.component';
 import { CFFComponent } from './projets/cff/cff.component';
 import { QuiSuisJeComponent } from './qui-suis-je/qui-suis-je.component';
 import { YouloopComponent } from './projets/youloop/youloop.component';
@@ -16,7 +17,9 @@ const routes: Routes = [
   { path: "projets/CFF", component: CFFComponent},
   // { path: "projets/pokemon", component: PokemonComponent},
   // { path: "projets/pokemon/:Id", component: DetailPokemonComponent},
-  { path: "", component: HomeComponent},
+  //{ path: "", redirectTo: 'login', pathMatch: 'full'},
+  { path: "", redirectTo: 'home', pathMatch: 'full'},
+  { path: 'login', component: LoginComponent},
   { path: "**", component: Error404Component}
 ];
 

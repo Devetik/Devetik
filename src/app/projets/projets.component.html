@@ -1,6 +1,6 @@
-<div class="row w-75 m-auto">
-  <div *ngFor="let projet of listeProjets" class="text-dark col-xl-3 col-lg-4 col-md-6 m-3">
-    <div class="card">
+<div class="row w-50 m-auto mt-3 mb-3">
+  <div *ngFor="let projet of listeProjets" class="text-dark col-xl-4 col-lg-4 col-md-6 m-auto mt-5 card p-0">
+
       <div class="card-img">
         <img src="{{projet.image}}" class="card-img-top" alt="ImagePerso" style="display: covered;">
       </div>
@@ -16,6 +16,17 @@
         <a *ngIf="!projet.isBuplic">Projet en cours de construction</a>
       </div>
     </div>
-  </div>
+
 
 </div>
+
+<!-- <div class="row w-100">
+  <div *ngFor="let projet of listeProjets" class="card text-dark col-xl-3 col-lg-4 col-md-6 m-4">
+    <img src="{{projet.image}}" class="card-img-top" alt="ImagePerso">
+    <div class="card-body">
+        <h5 class="card-title">{{projet.title}}</h5>
+        <p>{{projet.description}}</p>
+        <a routerLink="{{projet.lien}}" class="card-link">En savoir plus</a>
+    </div>
+  </div>
+</div> -->
